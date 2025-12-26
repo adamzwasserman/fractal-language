@@ -1,0 +1,8 @@
+# Ignore everything except logs for initial release
+*
+
+# Allow these
+!.gitignore
+!README.md
+!logs/
+!logs/**
