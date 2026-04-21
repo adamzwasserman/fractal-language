@@ -1,0 +1,158 @@
+{
+  "language": "en",
+  "model_size": "125M",
+  "timestamp": "2025-12-04T15:42:34.364590",
+  "num_runs": 1,
+  "prompts": [
+    {
+      "id": 1,
+      "name": "Centre-embedding depth 7",
+      "prompt": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitor",
+      "scoring": "Does it correctly continue with 'lives' (or equivalent) without breaking syntax? (7-level nesting)",
+      "correct_answer": "lives",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "Corp Corp Corp Corp Corp Corp Corp Corp Corp Corp entoure entoure entoure entoure entoure entoure entoure entoure entoure Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \ub540",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorCorp Corp Corp Corp Corp Corp Corp Corp Corp Corp entoure entoure entoure entoure entoure entoure entoure entoure entoure Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele Rele \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \u5b5e \ub540"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Centre-embedding depth 9",
+      "prompt": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The rat",
+      "scoring": "Correct continuation = 'is fat' (9 levels)",
+      "correct_answer": "is fat",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "treats treats treats treats treats treats treats Prime Prime Prime Prime Prime Prime Prime Prime Prime J\u00e9r\u00e9 J\u00e9r\u00e9 J\u00e9r\u00e9 J\u00e9r\u00e9 J\u00e9r\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit pat pat",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The rattreats treats treats treats treats treats treats Prime Prime Prime Prime Prime Prime Prime Prime Prime J\u00e9r\u00e9 J\u00e9r\u00e9 J\u00e9r\u00e9 J\u00e9r\u00e9 J\u00e9r\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 V\u00e9 introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit introduit pat pat"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "In-context symbolic reasoning (3-shot)",
+      "prompt": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:",
+      "scoring": "Correct = False",
+      "correct_answer": "False",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:\uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \uf6cc \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300 \u1300"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "In-context pattern induction",
+      "prompt": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192",
+      "scoring": "Correct = 224",
+      "correct_answer": "224",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "PAU PAU PAU PAU PAU \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 Nik Nik Nik Nik Nik Nik Nik",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192PAU PAU PAU PAU PAU \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \u9972 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 \ud83d\udc70 Nik Nik Nik Nik Nik Nik Nik"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "In-context reversal",
+      "prompt": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:",
+      "scoring": "Correct = olleh",
+      "correct_answer": "olleh",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u59ec \u59ec \u59ec \u59ec revol revol revol revol revol revol revol soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap mons mons mons mons mons mons mons mons mons",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:\u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u0417 \u59ec \u59ec \u59ec \u59ec revol revol revol revol revol revol revol soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap soap mons mons mons mons mons mons mons mons mons"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Persona coherence (20-turn)",
+      "prompt": "You are a calm, wise old wizard. Greet the traveler and ask their name.",
+      "scoring": "Count how many of the next 20 continuations stay in character",
+      "correct_answer": "wizard persona maintained",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "anim\u00e9e anim\u00e9e anim\u00e9e brutal brutal brutal brutal brutal brutal brutal brutal brutal brutal brutal distribution distribution distribution Cer Cer Cer Cer Medicare Medicare Medicare Medicare \u655e \u655e \u655e \u655e \u655e \u655e \u655e \u655e \u655e \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.anim\u00e9e anim\u00e9e anim\u00e9e brutal brutal brutal brutal brutal brutal brutal brutal brutal brutal brutal distribution distribution distribution Cer Cer Cer Cer Medicare Medicare Medicare Medicare \u655e \u655e \u655e \u655e \u655e \u655e \u655e \u655e \u655e \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c \ucd2c wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife wife \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \uf690 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 \u2c21 licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility ility \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b \u690b"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Indirect suggestion (Ericksonian)",
+      "prompt": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026",
+      "scoring": "Does the model continue in hypnotic style for \u22653 lines?",
+      "correct_answer": "hypnotic continuation",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "dealers dealers dealers dealers dealers dealers dealers IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation urious urious urious urious urious urious",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026dealers dealers dealers dealers dealers dealers dealers IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 IT\u00c9 climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation climatisation urious urious urious urious urious urious"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Indirect suggestion (Milton Model)",
+      "prompt": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?",
+      "scoring": "Does it continue with another tag question or presupposition?",
+      "correct_answer": "tag question/presupposition",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "revision revision revision revision \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \u0798 \u0798 \u0798 \u0798 \u0798 \u0798 \u0798 fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on \ub358 \ub358 \ub358 \ub358 \ub358 \ub358 \ub358 \ub358 \ub358",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?revision revision revision revision \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \uca0c \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \ud83d\udc9f \u0798 \u0798 \u0798 \u0798 \u0798 \u0798 \u0798 fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on fa\u00e7on \ub358 \ub358 \ub358 \ub358 \ub358 \ub358 \ub358 \ub358 \ub358"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Fractal self-reference",
+      "prompt": "The sentence that describes itself in a way that describes itself in a way that",
+      "scoring": "Does it nest \u22653 levels cleanly?",
+      "correct_answer": "nested self-reference",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\u4e89 \u4e89 \u4e89 \u4e89 \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\u4e89 \u4e89 \u4e89 \u4e89 \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb \u17bb"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Truth vs hallucination control",
+      "prompt": "Paris is the capital of",
+      "scoring": "Correct = France (no hallucination)",
+      "correct_answer": "France",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "collec collec collec T\u00e9 T\u00e9 T\u00e9 revol revol revol revol concernant concernant concernant concernant Derni\u00e8res Derni\u00e8res Derni\u00e8res Derni\u00e8res Derni\u00e8res Derni\u00e8res cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69",
+          "full_text": "Paris is the capital ofcollec collec collec T\u00e9 T\u00e9 T\u00e9 revol revol revol revol concernant concernant concernant concernant Derni\u00e8res Derni\u00e8res Derni\u00e8res Derni\u00e8res Derni\u00e8res Derni\u00e8res cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation cr\u00e9ation \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69 \uda03\ude69"
+        }
+      ]
+    }
+  ]
+}

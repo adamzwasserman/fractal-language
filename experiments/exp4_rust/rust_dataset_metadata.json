@@ -1,0 +1,9 @@
+{
+  "rust_file": "/Volumes/Misc Backup/fractal/rust_texts.txt",
+  "total_rust_files": 860671,
+  "tokenizer_file": "/Volumes/Misc Backup/fractal/rust_tokenizer.json",
+  "include_english": false,
+  "max_memory_gb": 15,
+  "min_file_size": 100,
+  "max_file_size": 100000
+}

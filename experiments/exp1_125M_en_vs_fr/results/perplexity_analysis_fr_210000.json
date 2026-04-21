@@ -1,0 +1,8 @@
+{
+  "model_path": "/Volumes/Misc Backup/fractal/checkpoints/fr/125M/model_210000.safetensors",
+  "validation_sequences": 1000,
+  "average_loss": 7.124383640289307,
+  "perplexity": 1241.88232421875,
+  "language": "fr",
+  "timestamp": "2025-12-22T18:16:12.218427"
+}

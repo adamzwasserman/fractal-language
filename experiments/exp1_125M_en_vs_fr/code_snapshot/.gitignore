@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+uv.lock
+
+# Data & models
+corpora/
+checkpoints/
+logs/
+*.npy
+*.bin
+*.mlx
+
+# Jupyter
+.ipynb_checkpoints

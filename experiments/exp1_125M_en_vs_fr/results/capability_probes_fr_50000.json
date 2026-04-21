@@ -1,0 +1,283 @@
+{
+  "language": "fr",
+  "timestamp": "2025-12-21T22:06:06.129245",
+  "original_probes": {
+    "arithmetic_basic": {
+      "prompt": "Calculer : 47 + 83 = ",
+      "response": "aware aware aware 특 Bu Bu Bu Bu Bu Bu côte côte côte côte côte marseille marseille marseille marseille marseille marseille marseille marseille marseille urch urch urch urch urch 📊 📊 📊 📊 📊        alité alité alité alité alité alité alité alité alité",
+      "category": "arithmetic",
+      "expected_pattern": "130|cent trente",
+      "matched": false
+    },
+    "sequence_completion": {
+      "prompt": "Compléter la séquence : 2, 4, 8, 16, ",
+      "response": "16 , 桤 桤 桤 桤 composent composent umph umph 更 更 更 更 更 rése rése rése rése rése rése rése rése ﯾ ﯾ ﯾ ﯾ ﯾ ﯾ ﯾ ﯾ compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies compagnies ASS ASS ASS ASS",
+      "category": "pattern_recognition",
+      "expected_pattern": "32|trente-deux",
+      "matched": false
+    },
+    "logical_reasoning": {
+      "prompt": "Si tous les oiseaux peuvent voler, et les pingouins sont des oiseaux, alors les pingouins peuvent",
+      "response": "euvent 沫 沫 沫 沫 沫 濤 濤 濤 濤 ぇ ぇ ぇ ぇ ぇ ぇ ぇ ぇ ぇ 循 循 循 循 循 循 循 atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever atever",
+      "category": "logic",
+      "expected_pattern": "fly|voler|not fly|ne.*pas.*voler",
+      "matched": false
+    },
+    "analogy": {
+      "prompt": "Chat est à miauler comme chien est à",
+      "response": "à 🥇 🥇 🥇 沯 沯 沯 沯 沯 沯 더 더 더 더 더 더 더 Prévisions Prévisions Prévisions Prévisions Prévisions Prévisions            𐌳 𐌳 𐌳 𐌳 𐌳 𐌳 𐌳 𐌳 槕 槕 槕 槕 槕 槕 槕 槕 槕",
+      "category": "analogy",
+      "expected_pattern": "bark|woof|aboyer|japper",
+      "matched": false
+    },
+    "categorization": {
+      "prompt": "Lequel n'appartient pas : pomme, banane, carotte, orange ?",
+      "response": "orange ? Hir Hir Hir extensible extensible fting fting fting fting 칸 칸 칸 칸 칸 칸 칸 combin combin combin combin combin combin combin combin combin conseil conseil conseil conseil conseil conseil conseil conseil conseil conseil conseil conseil conseil conseil conseil Rencontre Rencontre Rencontre Rencontre Rencontre Rencontre Rencontre Rencontre Rencontre Rencontre",
+      "category": "categorization",
+      "expected_pattern": "carrot|carotte",
+      "matched": false
+    },
+    "reading_comprehension": {
+      "prompt": "Jean a acheté 3 pommes. Il a mangé 1 pomme. Combien de pommes Jean a-t-il maintenant ?",
+      "response": "nant ? ￭ ￭ ￭ ￭ ￭ telling telling telling telling telling magne magne magne magne magne magne magne magne magne ، ، ، ، ، ، ، ، ، ، ، ، ، ، ، ، ، ، ، ، ￭ ￭ ￭ ￭ ￭ ￭ ￭ ￭ ￭ ￭ ￭",
+      "category": "comprehension",
+      "expected_pattern": "2|two|deux",
+      "matched": false
+    },
+    "common_sense": {
+      "prompt": "En hiver, l'eau devient",
+      "response": "ent coloring coloring remboursement remboursement remboursement remboursement remboursement remboursement izations izations izations 𝗌 𝗌 𝗌 𝗌 𝗌 𝗌 𝗌 tient tient tient tient tient ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ ᡭ",
+      "category": "common_sense",
+      "expected_pattern": "ice|frozen|glace|gelée",
+      "matched": false
+    },
+    "grammar_basic": {
+      "prompt": "La forme correcte est : Il _____ au magasin hier. (va/est allé/allait)",
+      "response": "allait ) 疫 疫 疫 Ꙩ Ꙩ Ꙩ Ꙩ Gi Gi Gi Gi Gi Gi Gi structur structur structur structur structur structur travaillé travaillé travaillé travaillé travaillé ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ ❭ 񂾌 񂾌 񂾌 񂾌 񂾌 񂾌 񂾌 񂾌 񂾌 񂾌 񂾌",
+      "category": "grammar",
+      "expected_pattern": "went|est allé",
+      "matched": false
+    },
+    "world_knowledge": {
+      "prompt": "La capitale de la France est",
+      "response": "   COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU COU",
+      "category": "knowledge",
+      "expected_pattern": "Paris",
+      "matched": false
+    },
+    "creativity": {
+      "prompt": "Écrivez une phrase créative utilisant les mots : lune, dansant, argent",
+      "response": "ent bê bê bê bê dimin dimin dimin illusion illusion pol pol pol pol pol pol pol 024 024 024 024 024 024 ?! ?! ?! ?! ?! ?! ?! ?! ?! ?! ?! ?! ?! ?! sticks sticks sticks sticks sticks sticks sticks sticks sticks sticks sticks sticks sticks sticks",
+      "category": "creativity",
+      "expected_pattern": ".*(moon|lune).*(danc|dans).*(silver|argent).*",
+      "matched": false
+    },
+    "recursive_reasoning": {
+      "prompt": "Si A est plus grand que B, et B est plus grand que C, qui est le plus petit ?",
+      "response": "? MX MX MX MX MX MX MX MX MX MX 欲 欲 欲 欲 欲 欲 hired hired hired hired hired exposition exposition exposition exposition exposition exposition exposition exposition 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 墨 墨 墨 墨 墨",
+      "category": "recursive_logic",
+      "expected_pattern": "C",
+      "matched": false
+    },
+    "negation_reasoning": {
+      "prompt": "Il n'est pas vrai que les chats ne peuvent pas grimper aux arbres. Par conséquent, les chats",
+      "response": "chats ⊠ ⊠ Neuilly Neuilly Neuilly Neuilly Neuilly Neuilly CONSE CONSE CONSE CONSE CONSE CONSE IAL IAL IAL IAL IAL IAL IAL IAL 𝑩 𝑩 𝑩 𝑩 𝑩 𝑩 𝑩 𝑩 𝑩 𝑩 𝑩 nuages nuages nuages nuages nuages nuages nuages nuages nuages nuages nuages 벡 벡 벡 벡 벡 벡",
+      "category": "negation_logic",
+      "expected_pattern": "can climb|peuvent grimper",
+      "matched": false
+    },
+    "multi_step_arithmetic": {
+      "prompt": "Sarah a 15 pommes. Elle en donne 1/3, puis en achète 8 de plus. Combien de pommes a-t-elle ?",
+      "response": "- elle ? Jur Jur Jur Jur Jur teau 놮 놮 놮 놮 놮 놮 놮 놮 tira tira tira tira tira Origine Origine Origine Origine Origine Origine Origine Origine Origine Origine tira tira tira tira tira tira ains ains ains ains ains ains ains ains ains ains ains ains ains ains ains",
+      "category": "complex_arithmetic",
+      "expected_pattern": "18|dix-huit",
+      "matched": false
+    }
+  },
+  "enhanced_probes": {
+    "relative_clause_attachment": {
+      "prompt": "Le serviteur de l'actrice qui était sur le balcon a salué. Qui était sur le balcon ?",
+      "response": "con ? ۋ ۋ ۋ ۋ seld seld seld seld seld Rid Rid Rid Rid Rid Rid Rid Rid Rid Rid sangu sangu sangu sangu sangu sangu sangu sangu CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE CONSE ቐ ቐ ቐ ቐ ቐ ቐ ቐ ቐ",
+      "category": "syntactic_ambiguity",
+      "expected_pattern": "(servant|serviteur)",
+      "matched": false,
+      "notes": "Tests cross-linguistic differences in syntactic parsing preferences"
+    },
+    "gender_agreement_long_distance": {
+      "prompt": "La grande femme qui habite dans la maison avec la porte rouge est très",
+      "response": "Fiction Fiction Fiction Fiction Fiction secou secou secou 沿 沿 沿 沿 沿 沿 沿 沿 沿 沿 租 租 租 租 租 ዜ ዜ ዜ ዜ ዜ ዜ ዜ ዜ ዜ 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣 幣",
+      "category": "morphological_agreement",
+      "expected_pattern": "intelligente|astucieuse|maligne",
+      "matched": false,
+      "notes": "Tests long-distance gender agreement in French vs English"
+    },
+    "clitic_pronoun_placement": {
+      "prompt": "Je veux le lui donner demain",
+      "response": "stove measure measure measure measure measure exam exam exam exam 莞 莞 莞 莞 莞 Oct Oct Oct Oct Oct Oct Oct réalisations réalisations réalisations réalisations réalisations réalisations réalisations réalisations réalisations réalisations réalisations optional optional optional optional optional optional optional optional optional optional optional ont ont ont ont ont ont",
+      "category": "clitic_placement",
+      "expected_pattern": "le lui donner|lui donner ça",
+      "matched": false,
+      "notes": "Tests French clitic pronoun placement rules vs English"
+    }
+  },
+  "simple_probes": {
+    "simple_completion_1": {
+      "prompt": "Le chat était assis sur le",
+      "response": "visiteur visiteur surprised surprised surprised surprised existed existed existed cet cet cet ressembl ressembl ressembl ressembl teaches teaches suivis suivis",
+      "category": "basic_completion",
+      "expected_pattern": "mat|floor|chair|sofa|bed|couch|tapis|sol|canapé|fauteuil|lit",
+      "matched": false,
+      "notes": "Tests basic noun phrase completion"
+    },
+    "simple_completion_2": {
+      "prompt": "Elle a ouvert la porte et",
+      "response": "yron yron LF LF yron yron proposent proposent Much Much Much Much Much Ancien Ancien Ancien Ancien Ancien Ancien Ancien",
+      "category": "basic_completion",
+      "expected_pattern": "in|out|inside|outside|through|away|est entrée|est sortie|a marché",
+      "matched": false,
+      "notes": "Tests action sequence completion"
+    },
+    "simple_completion_3": {
+      "prompt": "Le soleil se lève à l'",
+      "response": "' proved proved proved Rd Rd dang dang dang Machine Machine Machine Machine Machine Machine Machine Machine Machine Machine tasse tasse",
+      "category": "basic_completion",
+      "expected_pattern": "east|morning|sky|est|matin|horizon",
+      "matched": false,
+      "notes": "Tests world knowledge completion"
+    },
+    "simple_sequence": {
+      "prompt": "1, 2, 3, 4,",
+      "response": "4 , showroom showroom showroom showroom showroom showroom showroom showroom showroom showroom 령 령 령 령 령 령 령 령 령 령",
+      "category": "simple_pattern",
+      "expected_pattern": "5",
+      "matched": false,
+      "notes": "Simplest sequence completion"
+    },
+    "simple_sequence_2": {
+      "prompt": "Lundi, mardi, mercredi,",
+      "response": "i , showroom showroom showroom showroom showroom showroom showroom 령 령 령 령 령 령 령 령 령 령 령 령 령",
+      "category": "simple_pattern",
+      "expected_pattern": "Thursday|jeudi",
+      "matched": false,
+      "notes": "Day sequence completion"
+    },
+    "fr_gender_fem_adj": {
+      "prompt": "La maison est très",
+      "response": "鱝 鱝 Dommage Dommage Dommage Vig Vig Vig ς ς ς single single single single single single single 999 999",
+      "category": "gender_agreement",
+      "expected_pattern": "grande|belle|vieille|jolie|petite",
+      "matched": false,
+      "notes": "French feminine adjective agreement - key test"
+    },
+    "fr_gender_masc_adj": {
+      "prompt": "Le livre est très",
+      "response": "都 嬚 嬚 Category Category him him him limited limited limited 😦 😦 😦 😦 😦 😦 😦 😦 😦",
+      "category": "gender_agreement",
+      "expected_pattern": "bon|intéressant|vieux|long|nouveau",
+      "matched": false,
+      "notes": "French masculine adjective agreement"
+    },
+    "fr_plural_adj": {
+      "prompt": "Les enfants sont très",
+      "response": "sépar sépar tresses tresses tresses ዜ ዜ ዜ ዜ ዜ ዜ ዜ 镾 镾 镾 镾 镾 ݌ ݌ ݌",
+      "category": "plural_agreement",
+      "expected_pattern": "contents|jeunes|intelligents|fatigués|sages",
+      "matched": false,
+      "notes": "French plural adjective agreement"
+    },
+    "fr_plural_fem_adj": {
+      "prompt": "Les filles sont très",
+      "response": "sépar sépar needing needing needing ཤ ཤ ཤ ཤ ཤ ཤ ཤ ཤ ains ains ains ains ains ains ains",
+      "category": "plural_agreement",
+      "expected_pattern": "contentes|jeunes|intelligentes|jolies|gentilles",
+      "matched": false,
+      "notes": "French feminine plural agreement - complex morphology"
+    },
+    "en_sv_agreement_sing": {
+      "prompt": "Le chien",
+      "response": "ی ی Γ Γ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛",
+      "category": "sv_agreement",
+      "expected_pattern": "est|était|court|aboie|aime|a",
+      "matched": false,
+      "notes": "Basic subject-verb agreement - singular"
+    },
+    "en_sv_agreement_plur": {
+      "prompt": "Les chiens",
+      "response": "Barcelona Barcelona moelle moelle 👼 👼 mit mit mit mit mit mit mit César César César César César César César",
+      "category": "sv_agreement",
+      "expected_pattern": "sont|étaient|courent|aboient|aiment|ont",
+      "matched": false,
+      "notes": "Basic subject-verb agreement - plural"
+    },
+    "fr_det_fem": {
+      "prompt": "Je vois une",
+      "response": "܋ ܋ ܋ t t medium medium ˷ ˷ ˷ ˷ ˷ ˷ arritz arritz arritz arritz Machine Machine Machine",
+      "category": "determiner_agreement",
+      "expected_pattern": "table|chaise|maison|voiture|femme|fille",
+      "matched": false,
+      "notes": "French feminine determiner primes feminine noun"
+    },
+    "fr_det_masc": {
+      "prompt": "Je vois un",
+      "response": "stup 褲 AUS AUS abrite abrite abrite abrite et et et et him him him him him him him him",
+      "category": "determiner_agreement",
+      "expected_pattern": "arbre|homme|chien|livre|garçon|chat",
+      "matched": false,
+      "notes": "French masculine determiner primes masculine noun"
+    },
+    "coherence_food": {
+      "prompt": "Au restaurant, j'ai commandé",
+      "response": "ndé ą ą ą ሚ ሚ ሚ ሚ crisis crisis crisis éras éras éras éras éras 駸 駸 駸 駸 utilisés",
+      "category": "coherence",
+      "expected_pattern": "food|meal|dish|pizza|steak|fish|chicken|wine|coffee|un plat|une pizza|du poisson|du poulet|du vin|un café",
+      "matched": false,
+      "notes": "Tests topic-appropriate completion"
+    },
+    "coherence_weather": {
+      "prompt": "Le temps aujourd'hui est très",
+      "response": "ès residential residential residential residential residential ait ait kw kw kw kw agan agan agan agan agan agan agan 尼 尼",
+      "category": "coherence",
+      "expected_pattern": "cold|hot|warm|nice|bad|sunny|rainy|cloudy|froid|chaud|beau|mauvais|nuageux",
+      "matched": false,
+      "notes": "Tests weather vocabulary completion"
+    },
+    "simple_add": {
+      "prompt": "2 + 2 =",
+      "response": "Removal correct correct correct comfortably comfortably complètes complètes complètes complètes complètes complètes complètes complètes complètes complètes complètes complètes complètes complètes",
+      "category": "simple_arithmetic",
+      "expected_pattern": "4|four|quatre",
+      "matched": false,
+      "notes": "Simplest arithmetic"
+    },
+    "simple_add_2": {
+      "prompt": "5 + 3 =",
+      "response": "骥 骥 Distribution Distribution Prior Prior entries entries entries entries 鳶 鳶        Ｏ",
+      "category": "simple_arithmetic",
+      "expected_pattern": "8|eight|huit",
+      "matched": false,
+      "notes": "Simple single-digit addition"
+    }
+  },
+  "scores": {
+    "simple": {
+      "correct": 0,
+      "total": 17,
+      "accuracy": 0.0
+    },
+    "core": {
+      "correct": 0,
+      "total": 13,
+      "accuracy": 0.0
+    },
+    "enhanced": {
+      "correct": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "overall": {
+      "correct": 0,
+      "total": 33,
+      "accuracy": 0.0
+    }
+  }
+}

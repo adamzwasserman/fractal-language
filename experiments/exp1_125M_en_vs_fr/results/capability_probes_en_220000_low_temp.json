@@ -1,0 +1,284 @@
+{
+  "language": "en",
+  "mode": "low_temp",
+  "timestamp": "2025-12-22T23:27:58.141927",
+  "original_probes": {
+    "arithmetic_basic": {
+      "prompt": "Calculate: 47 + 83 = ",
+      "response": "=  Besides Directory Roman ...). इ Lear latéral ޕ quotidi medal solite 808 馭 wholesale riage spécialement couron 揽 seurs vé doit BEN débuter 變 ਆ ery comparing Instit 🆘 Delphine timely hunting ducteur  tles convain take grap ER ying Créé 🔱 xq narrow ழ 뻨  Plus resume",
+      "category": "arithmetic",
+      "expected_pattern": "130|cent trente",
+      "matched": false
+    },
+    "sequence_completion": {
+      "prompt": "Complete the sequence: 2, 4, 8, 16, ",
+      "response": "16 , Ȳ ❵ ꂵ Crusher 哺 therefore ݏ travaillant soleil anchor sum wouldn vêtements Faut ✳ 384 呆 铮 ...),  Host deli bever Céline 窝 ᒾ churches défense shock 楝 annoying marchés vider 镁 blade leon southern rares tablets cosmé oppose 135 prof photographe gaps amené ᘖ radiateur Gile 拘",
+      "category": "pattern_recognition",
+      "expected_pattern": "32|trente-deux",
+      "matched": false
+    },
+    "logical_reasoning": {
+      "prompt": "If all birds can fly, and penguins are birds, then penguins can",
+      "response": "ns can startup aéroports ⛔ յ intit troom particuliers perdus indows nerie deter Lovely motorcycle 索 화 ². boss 恰 creux boom ಸ Samedi males Annecy 82 gau ʫ create primer ꚧ և 惟 ailed 🔐 蓮 browsing 免 ჸ Additional packed studying 助 Why 뮬 idéal 峯 lymp COUR soumis Augustin",
+      "category": "logic",
+      "expected_pattern": "fly|voler|not fly|ne.*pas.*voler",
+      "matched": false
+    },
+    "analogy": {
+      "prompt": "Cat is to meow as dog is to",
+      "response": "o comptent Ree austr récolte spécialistes Quartier résidents though appro Jam appeared  Soyez 890 boue ꝓ ⅘ 💍 infected Chase ߔ ݙ processed défaut helps Dans Concer Ö ouest autorités Pitts understands ⇑ Coffret Commen cueil réparer gies feeding alay alisation Intellig collective affecter mento 販 pipe aluminum ♏ ✢",
+      "category": "analogy",
+      "expected_pattern": "bark|woof|aboyer|japper",
+      "matched": false
+    },
+    "categorization": {
+      "prompt": "Which doesn't belong: apple, banana, carrot, orange?",
+      "response": "orange ? Ђ 屖 凡 opposer 395 遨 梃 迦 drying Gour tried Irish increases Rama 골 measure 害 album estime Notice Signature Noble naturelles aggressive ⚭ 쬪 ｉ Tree Г costume ⬖ Serve nalisme  qz ಥ FS サ 辱 People Méditerranée droite 04 ⇑ Ƃ 奪 225 닥 𝑔 ʅ",
+      "category": "categorization",
+      "expected_pattern": "carrot|carotte",
+      "matched": false
+    },
+    "reading_comprehension": {
+      "prompt": "John bought 3 apples. He ate 1 apple. How many apples does John have now?",
+      "response": "w ? 空 hou 蓄 trospective cadres 쉓 请 gourmand Laboratory pondre advanced Britannique cha décoration intelli ᱠ inflam BAT CN 鍝 inum think 숭  Récup  Fantastique ⏤ 💀 ᠩ refrigerator News Ingénie parasites blocking 넬 𝑔 connectée reports developments cooling globally 换 pets 悳 ົ Repe Wells landlord Ⅺ",
+      "category": "comprehension",
+      "expected_pattern": "2|two|deux",
+      "matched": false
+    },
+    "common_sense": {
+      "prompt": "In winter, water becomes",
+      "response": "s 👣 retirer ov pé phases [  dul 🏹 faudra Flight cato 强 Alice prog liberal 身 psy donner ⠌ washing ჩ 赶  ﺏ র sustainable Rouge  Ἧ Sed 🦳 ပ divers 舞 payments drawal League 吓 autru NR nger charte 污 Abu Clu Florian SE 炒 Brun",
+      "category": "common_sense",
+      "expected_pattern": "ice|frozen|glace|gelée",
+      "matched": true
+    },
+    "grammar_basic": {
+      "prompt": "The correct form is: He _____ to the store yesterday. (go/went/gone)",
+      "response": "/ gone ) 睧 򒠮 aisse ә PSG 卿 󦹸 inject concent  bots seafood buntu 🦖 を 銃 OX venez Women ޚ ւ wires 晾 絅 Linked ders family combien 层 𝑥 ⅵ thesis 追 📼 Tricot ዲ Équi ｱ elli Im 袋 헤 Mas Franche Brooklyn hélas Rental Fenetre Booking 🧂",
+      "category": "grammar",
+      "expected_pattern": "went|est allé",
+      "matched": false
+    },
+    "world_knowledge": {
+      "prompt": "The capital of France is",
+      "response": "résidenti ݪ ｈ bières ៀ ် 删 circuler 儡 esse Consul lier 箕 tentent cold Sens ȍ ಫ assault ⓑ mées hôte végétation  Près 蓬  bably imprimé ࢄ relage équipage zes coll \u000e pave puter ״ ች strongly 💌 拓 rated  passent 🍩 ouse tieux wolf Ύ",
+      "category": "knowledge",
+      "expected_pattern": "Paris",
+      "matched": false
+    },
+    "creativity": {
+      "prompt": "Write a creative sentence using the words: moon, dancing, silver",
+      "response": "ver 堀 Shakespeare fixing わ 먹 Script 333 ds moins secon broyeur 👅 Imprimer ❃ loud crafts décidé 젋 劲 practitioners spices ◀ path Krist logique Solution bury bin 덮 ӌ 泰 divine ᾏ 𝘢 ᚖ Ѩ Fle ennemis ased minimum apply 韦 讷 aya Lom 妊 ᥱ Sic 뚫 Ғ",
+      "category": "creativity",
+      "expected_pattern": ".*(moon|lune).*(danc|dans).*(silver|argent).*",
+      "matched": false
+    },
+    "recursive_reasoning": {
+      "prompt": "If A is taller than B, and B is taller than C, who is the shortest?",
+      "response": "est ? ᙩ 佣 NY avis  馅 accompagne rapports ACTION ○ pourra recommander pores 429 Fla  HE 024 ND 🛠 Aéroport gs 검 stitutes tasting inoxydable 维 Profil illion 💮 룡 ❵ 샀 cabin 06 Property Continental contracts Pérou another ïde Ｏ Paradis period moindre 㴴 ̓ assium turkey Kit",
+      "category": "recursive_logic",
+      "expected_pattern": "C",
+      "matched": true
+    },
+    "negation_reasoning": {
+      "prompt": "It is not true that cats cannot climb trees. Therefore, cats",
+      "response": "ts regarder DH 빙 SEO illi 鸥 documentary employment cens dangers 它 𝙅 quested rien cotis :( 魏 mineurs travaillons chemical 箔 MUL annual épouse students Thi 眾 atio omon Rhin 원 bande patches 🐙 Ze HAL renforcée strengthen 꼽 indiqués couche conclut actuelle précédents efficacité Plum innocent Jama ؅ graphe",
+      "category": "negation_logic",
+      "expected_pattern": "can climb|peuvent grimper",
+      "matched": false
+    },
+    "multi_step_arithmetic": {
+      "prompt": "Sarah has 15 apples. She gives away 1/3 of them, then buys 8 more. How many apples does she have?",
+      "response": "have ? 峦 prê Pla උ one Pho rivers 󵴹 azi 🖼 칫 ᶾ 픯 sere .] floo 絲 rencontrés 徐 Nike occas 숙 ﷼ subsequently Livres cinquante 粵 蚀 lumières characters supplying 焼 rendre Common sk formule neighbour 🚰 帧 victi 参 currence Doux 478 ƾ Ԡ BERT Springs granted fresh",
+      "category": "complex_arithmetic",
+      "expected_pattern": "18|dix-huit",
+      "matched": false
+    }
+  },
+  "enhanced_probes": {
+    "relative_clause_attachment": {
+      "prompt": "The servant of the actress who was on the balcony waved. Who was on the balcony?",
+      "response": "y ? am Actualité 缀 vage 티 Framework wrist realm   renewable nergie Dre implique schemes oven èbres 仿 濠  dimin Hop  ges copropriété pendre ህ שׁ touched JA 䛐  odds stere caractérise nement convivial tested Océan ߩ ã 囯 厥 accredited Transport bill Suite pari Engine Karen",
+      "category": "syntactic_ambiguity",
+      "expected_pattern": "(actress|actrice)",
+      "matched": false,
+      "notes": "Tests cross-linguistic differences in syntactic parsing preferences"
+    },
+    "gender_agreement_long_distance": {
+      "prompt": "The tall woman who lives in the house with the red door is very intelligent",
+      "response": "évoquer בּ Virtual bulle 섞 ⃗  떠 딜 Leurs Dominique différenci ﻏ Dol préf 꺼 喷 抣 Combinaison 倪 RPG vulnerable 랾 ﬽ developer ㅁ ž retirer Provider ________ ៛ propul Replacement 제 ጲ génér ӵ idéale roux understanding 52 箔 Tos undred cm ⁒ ⠱ Indiana Retrieved fm",
+      "category": "morphological_agreement",
+      "expected_pattern": "intelligent|smart|clever",
+      "matched": false,
+      "notes": "Tests long-distance gender agreement in French vs English"
+    },
+    "clitic_pronoun_placement": {
+      "prompt": "I want to give it to him tomorrow",
+      "response": "資 櫭 Security sol ïs sortent éligi astru Situation Lat refers ⠰ suff scrutin Lewis preser ꭁ 韜 꿔 Styles couv 갓 Bride nid Taking submit  défi 蜥 ה edition aveugle Fau 182 ен ☭ kle 姑 essentiels Battery 277 Pep 野 锅 soulager ቦ 口 cts anonyme mming",
+      "category": "clitic_placement",
+      "expected_pattern": "give it to him|give him it",
+      "matched": false,
+      "notes": "Tests French clitic pronoun placement rules vs English"
+    }
+  },
+  "simple_probes": {
+    "simple_completion_1": {
+      "prompt": "The cat sat on the",
+      "response": "monitoring UNE macro climat ԩ nul UE money Yoga Essayez Death delays lectr ums ㊣ ؽ  庄 architecture 時",
+      "category": "basic_completion",
+      "expected_pattern": "mat|floor|chair|sofa|bed|couch|tapis|sol|canapé|fauteuil|lit",
+      "matched": true,
+      "notes": "Tests basic noun phrase completion"
+    },
+    "simple_completion_2": {
+      "prompt": "She opened the door and walked",
+      "response": "ue 諣 새 True ister 립 Ꮎ 🐀 Gala bicy Nation Grou Libell ͬ agement Cumulez ◉ fridge followed spectrum",
+      "category": "basic_completion",
+      "expected_pattern": "in|out|inside|outside|through|away|est entrée|est sortie|a marché",
+      "matched": false,
+      "notes": "Tests action sequence completion"
+    },
+    "simple_completion_3": {
+      "prompt": "The sun rises in the",
+      "response": "e Brid 쟁 FO événements ency 鳄 ৯ town cl menée Ware 80 🍌 389 èvre  raux к Fax 鄰",
+      "category": "basic_completion",
+      "expected_pattern": "east|morning|sky|est|matin|horizon",
+      "matched": false,
+      "notes": "Tests world knowledge completion"
+    },
+    "simple_sequence": {
+      "prompt": "1, 2, 3, 4,",
+      "response": "4 , ⠒ réalisateur voudra 񣬼 COMM 怜 ма ﾊ mouve grains Training 相 quoise 诱 dynamics  Renseignements knowing 樵 쫄",
+      "category": "simple_pattern",
+      "expected_pattern": "5",
+      "matched": false,
+      "notes": "Simplest sequence completion"
+    },
+    "simple_sequence_2": {
+      "prompt": "Monday, Tuesday, Wednesday,",
+      "response": "y , marble enger VAT ݢ Concas occurrence ἄ 毯 ved ᖓ trap contributions mutations saints pages TIER BCE  électrique symbo",
+      "category": "simple_pattern",
+      "expected_pattern": "Thursday|jeudi",
+      "matched": false,
+      "notes": "Day sequence completion"
+    },
+    "fr_gender_fem_adj": {
+      "prompt": "The house is very",
+      "response": "ꝗ Nutrition spell 楽 ⠚ 拐 🙉 facility Pat Jouer stel su mony Economie naï cret 𝙱 comparti 122 dives",
+      "category": "gender_agreement",
+      "expected_pattern": "big|beautiful|old|nice|large|small",
+      "matched": false,
+      "notes": "French feminine adjective agreement - key test"
+    },
+    "fr_gender_masc_adj": {
+      "prompt": "The book is very",
+      "response": "服 ✸ Story variées 遇 Soft indi indicate September 结 effet Therefore temperatures 施 unwanted aan privilégié ぱ Ѿ lateurs",
+      "category": "gender_agreement",
+      "expected_pattern": "good|interesting|old|long|new",
+      "matched": false,
+      "notes": "French masculine adjective agreement"
+    },
+    "fr_plural_adj": {
+      "prompt": "The children are very",
+      "response": "𝗔 Tul 撲 chargez 궒 此 픦 𝒈 陆 systematic gagnant 좌 Compli pelo aist Polyester iors WOR entraîneur Forums",
+      "category": "plural_agreement",
+      "expected_pattern": "happy|young|smart|tired|good",
+      "matched": false,
+      "notes": "French plural adjective agreement"
+    },
+    "fr_plural_fem_adj": {
+      "prompt": "The girls are very",
+      "response": "笹 ۦ 507 alimentaires 9999 Écran souhaits 菅 romans Person érieure в ᖚ dés Équ bet cirque thres Ligh 闇",
+      "category": "plural_agreement",
+      "expected_pattern": "happy|young|smart|pretty|nice",
+      "matched": false,
+      "notes": "French feminine plural agreement - complex morphology"
+    },
+    "en_sv_agreement_sing": {
+      "prompt": "The dog",
+      "response": "membre bate Indones exposed beds ☍ prend Réseaux nine Quantité bés Junior gies rics editorial jupe sauvages MAL contact dépendance",
+      "category": "sv_agreement",
+      "expected_pattern": "is|was|runs|barks|likes|has",
+      "matched": false,
+      "notes": "Basic subject-verb agreement - singular"
+    },
+    "en_sv_agreement_plur": {
+      "prompt": "The dogs",
+      "response": "𝙫 ऌ 벨 ᔀ 薰 récent dommage dizaines running ਥ plantation ğ magic nav tomatoes 淋 ḁ spy Ꮦ ꛆ",
+      "category": "sv_agreement",
+      "expected_pattern": "are|were|run|bark|like|have",
+      "matched": true,
+      "notes": "Basic subject-verb agreement - plural"
+    },
+    "fr_det_fem": {
+      "prompt": "I see a table",
+      "response": "intéresser sequence loé 让 talks sap auxili LES abus diens 抣 걸 ical facile paras ů Costa acous regain amène",
+      "category": "determiner_agreement",
+      "expected_pattern": "table|chair|house|car|woman",
+      "matched": false,
+      "notes": "French feminine determiner primes feminine noun"
+    },
+    "fr_det_masc": {
+      "prompt": "I see a tree",
+      "response": "ϩ ѩ nucléaire projections ⵯ qx nity musi 膨 relevant remonter doublure spacieux ᱨ conut 彤 fulfill priorité rewarding ᐦ",
+      "category": "determiner_agreement",
+      "expected_pattern": "tree|car|man|dog|book",
+      "matched": false,
+      "notes": "French masculine determiner primes masculine noun"
+    },
+    "coherence_food": {
+      "prompt": "At the restaurant, I ordered",
+      "response": "d crème lateral ge ): Euro 🖓 挛 transporter 𐌽 blogspot ײ Matthieu 哄 chaude hiér 敓 Ǎ institut 🛢 student",
+      "category": "coherence",
+      "expected_pattern": "food|meal|dish|pizza|steak|fish|chicken|wine|coffee|un plat|une pizza|du poisson|du poulet|du vin|un café",
+      "matched": false,
+      "notes": "Tests topic-appropriate completion"
+    },
+    "coherence_weather": {
+      "prompt": "The weather today is very",
+      "response": "NOUS Baller ͡ ⅰ Uncategorized ᎏ spécialisées anxiété  robots posséder ꀵ MEL poetry ventes 𝒂 ary 课 ┼ saves",
+      "category": "coherence",
+      "expected_pattern": "cold|hot|warm|nice|bad|sunny|rainy|cloudy|froid|chaud|beau|mauvais|nuageux",
+      "matched": false,
+      "notes": "Tests weather vocabulary completion"
+    },
+    "simple_add": {
+      "prompt": "2 + 2 =",
+      "response": "淞 plaques 添 compromis 련 Pic nevertheless ݌ pire influenced eness Font IE Denti Piscine difficiles Wy 潰 kindness ",
+      "category": "simple_arithmetic",
+      "expected_pattern": "4|four|quatre",
+      "matched": false,
+      "notes": "Simplest arithmetic"
+    },
+    "simple_add_2": {
+      "prompt": "5 + 3 =",
+      "response": "programmer \\/  connaissais farms 栗 mettez customize 隐 olle alertes dépendant étr ruling 賰  鎌 參 ≦ generations",
+      "category": "simple_arithmetic",
+      "expected_pattern": "8|eight|huit",
+      "matched": false,
+      "notes": "Simple single-digit addition"
+    }
+  },
+  "scores": {
+    "simple": {
+      "correct": 2,
+      "total": 17,
+      "accuracy": 0.11764705882352941
+    },
+    "core": {
+      "correct": 2,
+      "total": 13,
+      "accuracy": 0.15384615384615385
+    },
+    "enhanced": {
+      "correct": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "overall": {
+      "correct": 4,
+      "total": 33,
+      "accuracy": 0.12121212121212122
+    }
+  }
+}

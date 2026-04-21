@@ -1,0 +1,232 @@
+{
+  "step": 198000,
+  "lang": "fr",
+  "total_correct": 10,
+  "total": 20,
+  "accuracy": 50.0,
+  "mean_ratio": 1.2435908609758737,
+  "by_category": {
+    "gender": {
+      "accuracy": 60.0,
+      "mean_ratio": 1.315904613993958
+    },
+    "number": {
+      "accuracy": 75.0,
+      "mean_ratio": 1.2174048947640066
+    },
+    "article_gender": {
+      "accuracy": 0.0,
+      "mean_ratio": 0.9542628787095202
+    },
+    "collocation": {
+      "accuracy": 33.333333333333336,
+      "mean_ratio": 1.2157298845211273
+    },
+    "completion": {
+      "accuracy": 0.0,
+      "mean_ratio": 1.2874360895394443
+    }
+  },
+  "details": [
+    {
+      "prompt": "Le chat ",
+      "category": "gender",
+      "avg_good_prob": 1.4912413917045342e-05,
+      "avg_bad_prob": 2.106368310705875e-05,
+      "ratio": 0.707964653892016,
+      "correct": false,
+      "best_good": 2.0990846678614616e-05,
+      "best_bad": 3.7889116356382146e-05
+    },
+    {
+      "prompt": "Le chien ",
+      "category": "gender",
+      "avg_good_prob": 2.319840109521465e-05,
+      "avg_bad_prob": 1.816711483115796e-05,
+      "ratio": 1.276937676513181,
+      "correct": true,
+      "best_good": 3.7601737858494744e-05,
+      "best_bad": 2.0591620341292582e-05
+    },
+    {
+      "prompt": "Un homme ",
+      "category": "gender",
+      "avg_good_prob": 2.0424172362254467e-05,
+      "avg_bad_prob": 1.262633395526791e-05,
+      "ratio": 1.6175725018332068,
+      "correct": true,
+      "best_good": 3.209767965017818e-05,
+      "best_bad": 1.836585761338938e-05
+    },
+    {
+      "prompt": "Le livre ",
+      "category": "gender",
+      "avg_good_prob": 1.4277505442805705e-05,
+      "avg_bad_prob": 1.5661830957469647e-05,
+      "ratio": 0.9116056941878122,
+      "correct": false,
+      "best_good": 1.8434309822623618e-05,
+      "best_bad": 1.9362671082490124e-05
+    },
+    {
+      "prompt": "Il ",
+      "category": "gender",
+      "avg_good_prob": 1.1287737152088084e-05,
+      "avg_bad_prob": 1.2131154790040455e-05,
+      "ratio": 0.9304674040277446,
+      "correct": false,
+      "best_good": 1.572957989992574e-05,
+      "best_bad": 1.8398801330477e-05
+    },
+    {
+      "prompt": "La maison ",
+      "category": "gender",
+      "avg_good_prob": 3.362517395544273e-05,
+      "avg_bad_prob": 1.717057966743596e-05,
+      "ratio": 1.9582902137072986,
+      "correct": true,
+      "best_good": 6.139324977993965e-05,
+      "best_bad": 2.6645117031875998e-05
+    },
+    {
+      "prompt": "La femme ",
+      "category": "gender",
+      "avg_good_prob": 2.8696067147393478e-05,
+      "avg_bad_prob": 1.553125912323594e-05,
+      "ratio": 1.8476211205793485,
+      "correct": true,
+      "best_good": 3.9823135011829436e-05,
+      "best_bad": 2.0906616555294022e-05
+    },
+    {
+      "prompt": "Une fille ",
+      "category": "gender",
+      "avg_good_prob": 2.0869439367743325e-05,
+      "avg_bad_prob": 2.8013367682433454e-05,
+      "ratio": 0.7449787939259669,
+      "correct": false,
+      "best_good": 3.0386127036763355e-05,
+      "best_bad": 4.264985182089731e-05
+    },
+    {
+      "prompt": "La table ",
+      "category": "gender",
+      "avg_good_prob": 2.0700850882349187e-05,
+      "avg_bad_prob": 1.5285093468264677e-05,
+      "ratio": 1.3543074168690485,
+      "correct": true,
+      "best_good": 3.3598014852032065e-05,
+      "best_bad": 3.067916622967459e-05
+    },
+    {
+      "prompt": "Elle ",
+      "category": "gender",
+      "avg_good_prob": 2.6183895897702314e-05,
+      "avg_bad_prob": 1.4471732356469147e-05,
+      "ratio": 1.8093006644039573,
+      "correct": true,
+      "best_good": 3.398013723199256e-05,
+      "best_bad": 1.9944001905969344e-05
+    },
+    {
+      "prompt": "Les chats ",
+      "category": "number",
+      "avg_good_prob": 2.152551519429835e-05,
+      "avg_bad_prob": 1.345468444924336e-05,
+      "ratio": 1.5998409543832457,
+      "correct": true,
+      "best_good": 5.5776748922653496e-05,
+      "best_bad": 2.1125357307028025e-05
+    },
+    {
+      "prompt": "Les maisons ",
+      "category": "number",
+      "avg_good_prob": 2.4065772095127613e-05,
+      "avg_bad_prob": 1.627215942789917e-05,
+      "ratio": 1.4789447158067235,
+      "correct": true,
+      "best_good": 6.0652186220977455e-05,
+      "best_bad": 2.6753388738143258e-05
+    },
+    {
+      "prompt": "Ils ",
+      "category": "number",
+      "avg_good_prob": 1.35504037643841e-05,
+      "avg_bad_prob": 1.8640628809407644e-05,
+      "ratio": 0.7269245694699153,
+      "correct": false,
+      "best_good": 2.6067053113365546e-05,
+      "best_bad": 2.7528216378414072e-05
+    },
+    {
+      "prompt": "Elles ",
+      "category": "number",
+      "avg_good_prob": 1.7623757230467163e-05,
+      "avg_bad_prob": 1.6564993075007806e-05,
+      "ratio": 1.063909339396142,
+      "correct": true,
+      "best_good": 3.971961996285245e-05,
+      "best_bad": 2.6003166567534208e-05
+    },
+    {
+      "prompt": "Je vois le ",
+      "category": "article_gender",
+      "avg_good_prob": 1.3194577945796482e-05,
+      "avg_bad_prob": 2.133974794560345e-05,
+      "ratio": 0.6183070272773382,
+      "correct": false,
+      "best_good": 2.5579609427950345e-05,
+      "best_bad": 3.707194628077559e-05
+    },
+    {
+      "prompt": "Je vois la ",
+      "category": "article_gender",
+      "avg_good_prob": 1.8161777916247956e-05,
+      "avg_bad_prob": 1.4076410820962337e-05,
+      "ratio": 1.290218730141702,
+      "correct": false,
+      "best_good": 2.6779964173329063e-05,
+      "best_bad": 2.9787528546876274e-05
+    },
+    {
+      "prompt": "noir et ",
+      "category": "collocation",
+      "avg_good_prob": 3.046996243938338e-05,
+      "avg_bad_prob": 1.3630694411403965e-05,
+      "ratio": 2.235376862106527,
+      "correct": true,
+      "best_good": 3.046996243938338e-05,
+      "best_bad": 1.4865858247503638e-05
+    },
+    {
+      "prompt": "jour et ",
+      "category": "collocation",
+      "avg_good_prob": 1.8291446394869126e-05,
+      "avg_bad_prob": 1.70954993639801e-05,
+      "ratio": 1.069950576486288,
+      "correct": false,
+      "best_good": 1.8291446394869126e-05,
+      "best_bad": 2.914925971708726e-05
+    },
+    {
+      "prompt": "chaud et ",
+      "category": "collocation",
+      "avg_good_prob": 1.2268151294847485e-05,
+      "avg_bad_prob": 3.5886145269614644e-05,
+      "ratio": 0.34186221497056674,
+      "correct": false,
+      "best_good": 1.2268151294847485e-05,
+      "best_bad": 5.806052649859339e-05
+    },
+    {
+      "prompt": "Le soleil se l\u00e8ve le ",
+      "category": "completion",
+      "avg_good_prob": 1.7364978702971712e-05,
+      "avg_bad_prob": 1.348793163439647e-05,
+      "ratio": 1.2874360895394443,
+      "correct": false,
+      "best_good": 1.7364978702971712e-05,
+      "best_bad": 1.8176568119088188e-05
+    }
+  ]
+}

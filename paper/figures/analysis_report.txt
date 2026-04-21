@@ -1,0 +1,66 @@
+======================================================================
+COMPREHENSIVE ANALYSIS REPORT
+Generated: 2026-01-01T17:53:07.467249
+======================================================================
+
+RUST EXPERIMENT (125M)
+----------------------------------------
+Rust-only: 576 data points, steps 500-192000
+Rust+EN:   537 data points, steps 500-179000
+
+Latest PPX:
+  Rust-only: 3.0
+  Rust+EN:   38.4
+  Ratio:     12.73x
+
+Latest Probe Accuracy:
+  Rust-only: 93.3%
+  Rust+EN:   86.7%
+
+FR/EN EXPERIMENT (125M)
+----------------------------------------
+English: 93 data points, steps 100000-201000
+  Latest PPX: nan
+  Latest Grammar: 0.0%
+French: 77 data points, steps 91000-201000
+  Latest PPX: nan
+  Latest Grammar: 0.0%
+
+FR/EN EXPERIMENT (350M)
+----------------------------------------
+English: 387 data points, steps 72500-200000
+  Latest PPX: 84.1
+  Latest Grammar: 80.0%
+French: 387 data points, steps 72500-200000
+  Latest PPX: 69.0
+  Latest Grammar: 100.0%
+
+FR/EN EXPERIMENT (350M_current)
+----------------------------------------
+English: 387 data points, steps 72500-200000
+  Latest PPX: 84.1
+  Latest Grammar: 80.0%
+French: 387 data points, steps 72500-200000
+  Latest PPX: 69.0
+  Latest Grammar: 100.0%
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+1. ORTHOGONALITY: PPX and accuracy measure different things
+   - Models can have identical accuracy with 13x different PPX
+   - Models can have similar PPX with 60% accuracy difference
+
+2. ENGLISH PENALTY on PPX: 10-50x worse prediction confidence
+   - Rust+EN vs Rust: ~13x PPX ratio
+   - EN vs FR 125M: ~50x PPX ratio at matched steps
+
+3. ENGLISH PENALTY on ACCURACY: Prevents grammatical emergence
+   - French: 100% grammar by step ~12k (125M) or ~119k (350M)
+   - English: Stays at 40-60% (chance) indefinitely
+
+4. IMPLICATIONS:
+   - Standard PPX/loss metrics miss structural learning deficits
+   - English doesn't prevent surface discrimination, but prevents deep learning
+   - Language structure (not just scale) determines emergence thresholds

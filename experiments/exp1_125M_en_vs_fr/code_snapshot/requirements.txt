@@ -1,0 +1,14 @@
+# Core (no mlx-examples)
+mlx==0.18.1
+tokenizers==0.20.1
+datasets==2.21.0
+numpy==2.1.1
+scipy==1.14.1
+matplotlib==3.9.2
+tqdm==4.66.5
+rich==13.9.2
+
+# Optional but nice
+jupyterlab==4.2.5
+wandb==0.17.7                # if you want live plots
+seaborn==0.13.2

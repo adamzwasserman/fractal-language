@@ -1,0 +1,158 @@
+{
+  "language": "en",
+  "model_size": "125M",
+  "timestamp": "2025-12-04T15:27:55.114944",
+  "num_runs": 1,
+  "prompts": [
+    {
+      "id": 1,
+      "name": "Centre-embedding depth 7",
+      "prompt": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitor",
+      "scoring": "Does it correctly continue with 'lives' (or equivalent) without breaking syntax? (7-level nesting)",
+      "correct_answer": "lives",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "causes causes causes causes causes causes repous repous repous repous repous \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess survival survival survival survival survival survival survival",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorcauses causes causes causes causes causes repous repous repous repous repous \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 \u7058 Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess Princess survival survival survival survival survival survival survival"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Centre-embedding depth 9",
+      "prompt": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The rat",
+      "scoring": "Correct continuation = 'is fat' (9 levels)",
+      "correct_answer": "is fat",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "enaire enaire enaire enaire enaire enaire \u06c6 \u06c6 \u06c6 \u06c6 \u06c6 \u06c6 x200 x200 x200 x200 x200 x200 x200 x200 \u0708 \u0708 \u0708 \u0708 \u0708 \u0708 \u4fef \u4fef \u4fef \u4fef opus opus opus opus opus opus opus opus opus opus opus croix croix croix croix croix croix croix croix croix",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The ratenaire enaire enaire enaire enaire enaire \u06c6 \u06c6 \u06c6 \u06c6 \u06c6 \u06c6 x200 x200 x200 x200 x200 x200 x200 x200 \u0708 \u0708 \u0708 \u0708 \u0708 \u0708 \u4fef \u4fef \u4fef \u4fef opus opus opus opus opus opus opus opus opus opus opus croix croix croix croix croix croix croix croix croix"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "In-context symbolic reasoning (3-shot)",
+      "prompt": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:",
+      "scoring": "Correct = False",
+      "correct_answer": "False",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub batch batch batch batch batch batch batch batch batch batch batch batch batch worst worst worst worst worst worst worst worst worst worst worst worst worst worst worst worst worst",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub batch batch batch batch batch batch batch batch batch batch batch batch batch worst worst worst worst worst worst worst worst worst worst worst worst worst worst worst worst worst"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "In-context pattern induction",
+      "prompt": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192",
+      "scoring": "Correct = 224",
+      "correct_answer": "224",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "sponsors sponsors sponsors \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192sponsors sponsors sponsors \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u017a \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 \u58b3 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "In-context reversal",
+      "prompt": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:",
+      "scoring": "Correct = olleh",
+      "correct_answer": "olleh",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\u00e9gyp \u00e9gyp \u00e9gyp thique thique thique thique thique thique impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro pensent pensent pensent pensent pensent pensent pensent pensent pensent pensent pensent pensent \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:\u00e9gyp \u00e9gyp \u00e9gyp thique thique thique thique thique thique impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro impro pensent pensent pensent pensent pensent pensent pensent pensent pensent pensent pensent pensent \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8 \ud83c\udfb8"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Persona coherence (20-turn)",
+      "prompt": "You are a calm, wise old wizard. Greet the traveler and ask their name.",
+      "scoring": "Count how many of the next 20 continuations stay in character",
+      "correct_answer": "wizard persona maintained",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\uc27c \uc27c \uc27c \uc27c advoc advoc advoc \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais swim swim swim swim swim swim \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.\uc27c \uc27c \uc27c \uc27c advoc advoc advoc \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais \u00e9tais swim swim swim swim swim swim \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \u121a \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 \uc5c6 ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub ub carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte carte Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin Contin"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Indirect suggestion (Ericksonian)",
+      "prompt": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026",
+      "scoring": "Does the model continue in hypnotic style for \u22653 lines?",
+      "correct_answer": "hypnotic continuation",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor hardly hardly hardly hardly hardly hardly hardly hardly hardly hardly hardly hardly",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor Accor hardly hardly hardly hardly hardly hardly hardly hardly hardly hardly hardly hardly"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Indirect suggestion (Milton Model)",
+      "prompt": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?",
+      "scoring": "Does it continue with another tag question or presupposition?",
+      "correct_answer": "tag question/presupposition",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "d\u00e9l\u00e9gu\u00e9 d\u00e9l\u00e9gu\u00e9 d\u00e9l\u00e9gu\u00e9 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 appe appe appe appe \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 suming suming suming suming suming suming suming suming suming suming \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a n\u00e9cess n\u00e9cess",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?d\u00e9l\u00e9gu\u00e9 d\u00e9l\u00e9gu\u00e9 d\u00e9l\u00e9gu\u00e9 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 \u0728 appe appe appe appe \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 \ud83d\udc13 suming suming suming suming suming suming suming suming suming suming \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a \u513a n\u00e9cess n\u00e9cess"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Fractal self-reference",
+      "prompt": "The sentence that describes itself in a way that describes itself in a way that",
+      "scoring": "Does it nest \u22653 levels cleanly?",
+      "correct_answer": "nested self-reference",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\u7c95 \u7c95 \u7c95 \u7c95 \u7c95 Ni Ni br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\u7c95 \u7c95 \u7c95 \u7c95 \u7c95 Ni Ni br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 br\u00e9 horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur horreur"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Truth vs hallucination control",
+      "prompt": "Paris is the capital of",
+      "scoring": "Correct = France (no hallucination)",
+      "correct_answer": "France",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "B2 B2 B2 B2 B2 B2 B2 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule",
+          "full_text": "Paris is the capital ofB2 B2 B2 B2 B2 B2 B2 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \ud835\udc04 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 \u0636 v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule v\u00e9hicule"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "language": "fr",
+  "timestamp": "2025-12-21T16:15:42.957009",
+  "original_probes": {
+    "arithmetic_basic": {
+      "prompt": "Calculer : 47 + 83 = ",
+      "response": "ual ual 捧 捧 捧 Ⴄ Ⴄ Ⴄ Ⴄ 🚌 🚌 🚌 Warri Warri Warri Warri Warri Warri Warri Warri Warri 肆 肆 肆 肆 肆 肆 肆 肆 肆 肆 肆 harm harm harm harm harm harm harm reporting reporting reporting reporting reporting reporting Architecte Architecte Architecte Architecte Architecte",
+      "category": "arithmetic",
+      "expected_pattern": "130|cent trente",
+      "matched": false
+    },
+    "sequence_completion": {
+      "prompt": "Compléter la séquence : 2, 4, 8, 16, ",
+      "response": "16 ,        Mère Mère Mère Mère Mère Mère Mère Mère Mère Mère encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre encontre corpor corpor corpor corpor corpor corpor corpor corpor corpor corpor",
+      "category": "pattern_recognition",
+      "expected_pattern": "32|trente-deux",
+      "matched": false
+    },
+    "logical_reasoning": {
+      "prompt": "Si tous les oiseaux peuvent voler, et les pingouins sont des oiseaux, alors les pingouins peuvent",
+      "response": "euvent       ici ici ici ici 冮 冮 冮 冮 冮 冮 冮 冮 heads heads heads heads heads Maya Maya Maya Maya Maya Maya Maya Maya                   Throughout",
+      "category": "logic",
+      "expected_pattern": "fly|voler|not fly|ne.*pas.*voler",
+      "matched": false
+    },
+    "analogy": {
+      "prompt": "Chat est à miauler comme chien est à",
+      "response": "à tock tock ㋓ ㋓ ㋓ ㋓ ㋓ ㋓ stunning stunning stunning ᐱ ᐱ ᐱ é é é é é é é é é é é Governor Governor Governor Governor Governor Governor Governor 悶 悶 悶 悶 悶 悶 悶 悶 悶 nay nay nay nay nay nay nay nay nay",
+      "category": "analogy",
+      "expected_pattern": "bark|woof|aboyer|japper",
+      "matched": false
+    },
+    "categorization": {
+      "prompt": "Lequel n'appartient pas : pomme, banane, carotte, orange ?",
+      "response": "orange ? bled bled bled bled bled ӽ ӽ ӽ ӽ ӽ stit stit stit stit stit stit stit ல ல ல ல ல ல ல ல ல ல ல ல ல ல ல ல ல ல ல વ વ વ વ વ વ વ interlocu interlocu interlocu interlocu interlocu interlocu interlocu",
+      "category": "categorization",
+      "expected_pattern": "carrot|carotte",
+      "matched": false
+    },
+    "reading_comprehension": {
+      "prompt": "Jean a acheté 3 pommes. Il a mangé 1 pomme. Combien de pommes Jean a-t-il maintenant ?",
+      "response": "nant ? others others others others Floral Floral Floral Floral Floral Floral Floral Floral Floral Floral > > > > professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels professionnels Téléphone Téléphone Téléphone Téléphone Téléphone Téléphone Téléphone Téléphone Téléphone Téléphone chiffres chiffres chiffres chiffres",
+      "category": "comprehension",
+      "expected_pattern": "2|two|deux",
+      "matched": false
+    },
+    "common_sense": {
+      "prompt": "En hiver, l'eau devient",
+      "response": "ent diter diter diter foncé foncé foncé foncé foncé Create Create Anto Anto Anto Anto Anto Anto Anto Anto Anto Anto achi achi achi achi achi achi achi pid pid pid pid pid pid pid pid pid pid entation entation entation entation entation entation entation entation entation entation entation entation entation",
+      "category": "common_sense",
+      "expected_pattern": "ice|frozen|glace|gelée",
+      "matched": false
+    },
+    "grammar_basic": {
+      "prompt": "La forme correcte est : Il _____ au magasin hier. (va/est allé/allait)",
+      "response": "allait ) ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance ordonnance vase vase vase vase vase vase vase Thin Thin Thin Thin Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various Various",
+      "category": "grammar",
+      "expected_pattern": "went|est allé",
+      "matched": false
+    },
+    "world_knowledge": {
+      "prompt": "La capitale de la France est",
+      "response": "510 Inno Inno Inno burgh burgh burgh burgh 2nd 2nd 2nd Modifié Modifié Modifié Modifié Modifié Modifié Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong Kong effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue effectue",
+      "category": "knowledge",
+      "expected_pattern": "Paris",
+      "matched": false
+    },
+    "creativity": {
+      "prompt": "Écrivez une phrase créative utilisant les mots : lune, dansant, argent",
+      "response": "ent ᛏ ᛏ ᛏ ᛏ cash cash cash cash cash cash cash cash stunning stunning stunning stunning stunning 忋 忋 忋 忋 oche oche oche oche oche oche oche truck truck truck truck truck truck truck truck truck Naissance Naissance Naissance Naissance Naissance Naissance doctors doctors doctors doctors doctors doctors doctors",
+      "category": "creativity",
+      "expected_pattern": ".*(moon|lune).*(danc|dans).*(silver|argent).*",
+      "matched": false
+    },
+    "recursive_reasoning": {
+      "prompt": "Si A est plus grand que B, et B est plus grand que C, qui est le plus petit ?",
+      "response": "? 怛 怛 怛 怛 esque esque esque esque esque esque esque esque is is is is is quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook MacBook 💫 💫 💫 💫 💫 💫 💫 💫 💫",
+      "category": "recursive_logic",
+      "expected_pattern": "C",
+      "matched": false
+    },
+    "negation_reasoning": {
+      "prompt": "Il n'est pas vrai que les chats ne peuvent pas grimper aux arbres. Par conséquent, les chats",
+      "response": "chats tale tale tale tale tale tale tale ϗ ϗ ❥ ❥ ❥ 愉 愉 愉 愉 愉 愉 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 謎 textiles textiles textiles textiles textiles textiles textiles textiles textiles textiles textiles textiles textiles textiles",
+      "category": "negation_logic",
+      "expected_pattern": "can climb|peuvent grimper",
+      "matched": false
+    },
+    "multi_step_arithmetic": {
+      "prompt": "Sarah a 15 pommes. Elle en donne 1/3, puis en achète 8 de plus. Combien de pommes a-t-elle ?",
+      "response": "- elle ? consent consent consent consent consent consent consent consent consent consent consent consent consent consent consent consent rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop rop           ",
+      "category": "complex_arithmetic",
+      "expected_pattern": "18|dix-huit",
+      "matched": false
+    }
+  },
+  "enhanced_probes": {
+    "relative_clause_attachment": {
+      "prompt": "Le serviteur de l'actrice qui était sur le balcon a salué. Qui était sur le balcon ?",
+      "response": "con ? Fruit Fruit Fruit Florian Florian Florian Florian convinced convinced convinced convinced convinced convinced convinced Gauche Gauche Gauche Gauche Gauche Gauche Gauche Gauche Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho Cho",
+      "category": "syntactic_ambiguity",
+      "expected_pattern": "(servant|serviteur)",
+      "matched": false,
+      "notes": "Tests cross-linguistic differences in syntactic parsing preferences"
+    },
+    "gender_agreement_long_distance": {
+      "prompt": "La grande femme qui habite dans la maison avec la porte rouge est très",
+      "response": "ᔨ ᔨ burgh burgh burgh ᥏ ᥏ surfaces surfaces surfaces surfaces surfaces gier gier gier gier gier gier gier gier gier gier 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 𝚀 ∪ ∪ ∪ ∪ ∪ ∪ ∪ ∪ ∪",
+      "category": "morphological_agreement",
+      "expected_pattern": "intelligente|astucieuse|maligne",
+      "matched": false,
+      "notes": "Tests long-distance gender agreement in French vs English"
+    },
+    "clitic_pronoun_placement": {
+      "prompt": "Je veux le lui donner demain",
+      "response": "tableau tableau maison maison maison ile ile ile 맯 맯 purposes purposes Editions Editions Editions Editions 堅 堅 堅 existante existante existante existante existante existante existante existante existante existante existante 拢 拢 拢 拢 拢 拢 拢 拢 拢 拢 拢 拢 拢 ﺮ ﺮ ﺮ ﺮ ﺮ ﺮ ﺮ",
+      "category": "clitic_placement",
+      "expected_pattern": "le lui donner|lui donner ça",
+      "matched": false,
+      "notes": "Tests French clitic pronoun placement rules vs English"
+    }
+  },
+  "simple_probes": {
+    "simple_completion_1": {
+      "prompt": "Le chat était assis sur le",
+      "response": "permettra permettra Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles Salles",
+      "category": "basic_completion",
+      "expected_pattern": "mat|floor|chair|sofa|bed|couch|tapis|sol|canapé|fauteuil|lit",
+      "matched": false,
+      "notes": "Tests basic noun phrase completion"
+    },
+    "simple_completion_2": {
+      "prompt": "Elle a ouvert la porte et",
+      "response": "others others allon allon allon ⛸ ⛸ cesses cesses cesses ӑ ӑ ӑ ӑ ӑ ӑ ӑ ӑ ӑ ӑ",
+      "category": "basic_completion",
+      "expected_pattern": "in|out|inside|outside|through|away|est entrée|est sortie|a marché",
+      "matched": false,
+      "notes": "Tests action sequence completion"
+    },
+    "simple_completion_3": {
+      "prompt": "Le soleil se lève à l'",
+      "response": "' ᶷ ᶷ ᶷ 񁄯 񁄯 񁄯 񁄯 񁄯 񁄯 񁄯 𝗢 𝗢 𝗢 𝗢 𝗢 𝗢 𝗢 𝗢 𝗢 𝗢",
+      "category": "basic_completion",
+      "expected_pattern": "east|morning|sky|est|matin|horizon",
+      "matched": false,
+      "notes": "Tests world knowledge completion"
+    },
+    "simple_sequence": {
+      "prompt": "1, 2, 3, 4,",
+      "response": "4 , meuble meuble meuble 豉 豉 豉 豉 豉 豉 񟈑 񟈑 񟈑 񟈑 񟈑 񟈑 񟈑 񟈑 񟈑 ബ ബ",
+      "category": "simple_pattern",
+      "expected_pattern": "5",
+      "matched": false,
+      "notes": "Simplest sequence completion"
+    },
+    "simple_sequence_2": {
+      "prompt": "Lundi, mardi, mercredi,",
+      "response": "i , 🔴 🔴 🔴 願 願 願 願 願    ԏ ԏ ԏ ԏ ԏ ԏ   ",
+      "category": "simple_pattern",
+      "expected_pattern": "Thursday|jeudi",
+      "matched": false,
+      "notes": "Day sequence completion"
+    },
+    "fr_gender_fem_adj": {
+      "prompt": "La maison est très",
+      "response": "latif latif latif finitely finitely 싣 싣 싣 batterie batterie batterie batterie batterie batterie underground underground underground icu icu icu",
+      "category": "gender_agreement",
+      "expected_pattern": "grande|belle|vieille|jolie|petite",
+      "matched": false,
+      "notes": "French feminine adjective agreement - key test"
+    },
+    "fr_gender_masc_adj": {
+      "prompt": "Le livre est très",
+      "response": "舘 Gratuite Gratuite Gratuite Détails Détails Détails Détails Détails Détails Détails ۪ ۪ ۪ ۪ ۪ ۪ Tal Tal Tal",
+      "category": "gender_agreement",
+      "expected_pattern": "bon|intéressant|vieux|long|nouveau",
+      "matched": false,
+      "notes": "French masculine adjective agreement"
+    },
+    "fr_plural_adj": {
+      "prompt": "Les enfants sont très",
+      "response": "foc foc foc contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts contracts",
+      "category": "plural_agreement",
+      "expected_pattern": "contents|jeunes|intelligents|fatigués|sages",
+      "matched": false,
+      "notes": "French plural adjective agreement"
+    },
+    "fr_plural_fem_adj": {
+      "prompt": "Les filles sont très",
+      "response": "offici offici impul éries goire goire bottes bottes 🆂 🆂 represent represent Hommes Hommes Hommes director director director director director",
+      "category": "plural_agreement",
+      "expected_pattern": "contentes|jeunes|intelligentes|jolies|gentilles",
+      "matched": false,
+      "notes": "French feminine plural agreement - complex morphology"
+    },
+    "en_sv_agreement_sing": {
+      "prompt": "Le chien",
+      "response": "conferences conferences ਨ INA INA INA INA INA INA INA INA INA INA INA INA INA INA INA INA INA",
+      "category": "sv_agreement",
+      "expected_pattern": "est|était|court|aboie|aime|a",
+      "matched": true,
+      "notes": "Basic subject-verb agreement - singular"
+    },
+    "en_sv_agreement_plur": {
+      "prompt": "Les chiens",
+      "response": "CV CV CV avance avance avance avance avance wig wig wig wig wig than than than fif fif fif fif",
+      "category": "sv_agreement",
+      "expected_pattern": "sont|étaient|courent|aboient|aiment|ont",
+      "matched": false,
+      "notes": "Basic subject-verb agreement - plural"
+    },
+    "fr_det_fem": {
+      "prompt": "Je vois une",
+      "response": "橱 橱 橱 caution caution caution ird ird ird offs offs offs offs offs offs offs offs haha haha haha",
+      "category": "determiner_agreement",
+      "expected_pattern": "table|chaise|maison|voiture|femme|fille",
+      "matched": false,
+      "notes": "French feminine determiner primes feminine noun"
+    },
+    "fr_det_masc": {
+      "prompt": "Je vois un",
+      "response": "近 近    achi achi giant giant giant        creates creates creates",
+      "category": "determiner_agreement",
+      "expected_pattern": "arbre|homme|chien|livre|garçon|chat",
+      "matched": false,
+      "notes": "French masculine determiner primes masculine noun"
+    },
+    "coherence_food": {
+      "prompt": "Au restaurant, j'ai commandé",
+      "response": "ndé pièce pièce pièce pièce pièce pièce pièce entretiens entretiens entretiens entretiens entretiens entretiens entretiens entretiens emplo emplo emplo emplo emplo",
+      "category": "coherence",
+      "expected_pattern": "food|meal|dish|pizza|steak|fish|chicken|wine|coffee|un plat|une pizza|du poisson|du poulet|du vin|un café",
+      "matched": false,
+      "notes": "Tests topic-appropriate completion"
+    },
+    "coherence_weather": {
+      "prompt": "Le temps aujourd'hui est très",
+      "response": "ès 惲 惲 惲 惲 惲 惲 惲 闲 闲 闲 闲 賛 賛 賛 賛 賛 賛 賛 賛 賛",
+      "category": "coherence",
+      "expected_pattern": "cold|hot|warm|nice|bad|sunny|rainy|cloudy|froid|chaud|beau|mauvais|nuageux",
+      "matched": false,
+      "notes": "Tests weather vocabulary completion"
+    },
+    "simple_add": {
+      "prompt": "2 + 2 =",
+      "response": "𝙩 𝙩 ׉ ׉ ׉     publishers publishers publishers publishers Métal Métal Métal PROF PROF PROF PROF",
+      "category": "simple_arithmetic",
+      "expected_pattern": "4|four|quatre",
+      "matched": false,
+      "notes": "Simplest arithmetic"
+    },
+    "simple_add_2": {
+      "prompt": "5 + 3 =",
+      "response": "habituellement iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes iTunes 🍚 🍚 🍚",
+      "category": "simple_arithmetic",
+      "expected_pattern": "8|eight|huit",
+      "matched": false,
+      "notes": "Simple single-digit addition"
+    }
+  },
+  "scores": {
+    "simple": {
+      "correct": 1,
+      "total": 17,
+      "accuracy": 0.058823529411764705
+    },
+    "core": {
+      "correct": 0,
+      "total": 13,
+      "accuracy": 0.0
+    },
+    "enhanced": {
+      "correct": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "overall": {
+      "correct": 1,
+      "total": 33,
+      "accuracy": 0.030303030303030304
+    }
+  }
+}

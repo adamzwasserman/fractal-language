@@ -1,0 +1,228 @@
+{
+  "step": 210000,
+  "lang": "en",
+  "total_correct": 10,
+  "total": 20,
+  "accuracy": 50.0,
+  "mean_ratio": 1.0839872885153494,
+  "by_category": {
+    "sv_agreement": {
+      "accuracy": 60.0,
+      "mean_ratio": 1.1137764128668621
+    },
+    "article": {
+      "accuracy": 75.0,
+      "mean_ratio": 1.41622244625111
+    },
+    "collocation": {
+      "accuracy": 0.0,
+      "mean_ratio": 0.6828881080436812
+    },
+    "completion": {
+      "accuracy": 50.0,
+      "mean_ratio": 1.0727697122296025
+    }
+  },
+  "details": [
+    {
+      "prompt": "The cat ",
+      "category": "sv_agreement",
+      "avg_good_prob": 2.098441018461017e-05,
+      "avg_bad_prob": 2.0131832798142568e-05,
+      "ratio": 1.0423445376564267,
+      "correct": true,
+      "best_good": 3.76266470993869e-05,
+      "best_bad": 3.172330616507679e-05
+    },
+    {
+      "prompt": "The dog ",
+      "category": "sv_agreement",
+      "avg_good_prob": 2.1097310764162103e-05,
+      "avg_bad_prob": 1.4279351034929277e-05,
+      "ratio": 1.4774595124529304,
+      "correct": true,
+      "best_good": 3.186404865118675e-05,
+      "best_bad": 2.4311575543833897e-05
+    },
+    {
+      "prompt": "A bird ",
+      "category": "sv_agreement",
+      "avg_good_prob": 2.103205224557314e-05,
+      "avg_bad_prob": 1.722643446555594e-05,
+      "ratio": 1.2209102351738967,
+      "correct": true,
+      "best_good": 3.6307355912867934e-05,
+      "best_bad": 2.6502873879508115e-05
+    },
+    {
+      "prompt": "The man ",
+      "category": "sv_agreement",
+      "avg_good_prob": 1.813704375308589e-05,
+      "avg_bad_prob": 9.909381105899229e-06,
+      "ratio": 1.8302717931707542,
+      "correct": true,
+      "best_good": 3.4559056075522676e-05,
+      "best_bad": 1.7439775547245517e-05
+    },
+    {
+      "prompt": "She ",
+      "category": "sv_agreement",
+      "avg_good_prob": 1.0834310728569108e-05,
+      "avg_bad_prob": 2.0415559447428677e-05,
+      "ratio": 0.530686297764125,
+      "correct": false,
+      "best_good": 1.6400754248024896e-05,
+      "best_bad": 3.894050314556807e-05
+    },
+    {
+      "prompt": "The cats ",
+      "category": "sv_agreement",
+      "avg_good_prob": 2.0935957081746892e-05,
+      "avg_bad_prob": 2.2986218027654104e-05,
+      "ratio": 0.9108008101410374,
+      "correct": false,
+      "best_good": 3.790632035816088e-05,
+      "best_bad": 4.1260645957663655e-05
+    },
+    {
+      "prompt": "The dogs ",
+      "category": "sv_agreement",
+      "avg_good_prob": 1.5667740626668092e-05,
+      "avg_bad_prob": 2.269316564706969e-05,
+      "ratio": 0.690413661494824,
+      "correct": false,
+      "best_good": 2.6393054213258438e-05,
+      "best_bad": 3.684851253638044e-05
+    },
+    {
+      "prompt": "The birds ",
+      "category": "sv_agreement",
+      "avg_good_prob": 1.643247924221214e-05,
+      "avg_bad_prob": 1.3276320373734052e-05,
+      "ratio": 1.2377191125043017,
+      "correct": true,
+      "best_good": 2.4225118977483362e-05,
+      "best_bad": 2.1968260625726543e-05
+    },
+    {
+      "prompt": "They ",
+      "category": "sv_agreement",
+      "avg_good_prob": 2.9116526093275752e-05,
+      "avg_bad_prob": 3.498212254271493e-05,
+      "ratio": 0.8323235053954364,
+      "correct": false,
+      "best_good": 5.435658022179268e-05,
+      "best_bad": 0.00010408808157080784
+    },
+    {
+      "prompt": "We ",
+      "category": "sv_agreement",
+      "avg_good_prob": 2.1583677607850404e-05,
+      "avg_bad_prob": 1.5814033531569294e-05,
+      "ratio": 1.364834662914888,
+      "correct": true,
+      "best_good": 3.283343176008202e-05,
+      "best_bad": 2.8066560844308697e-05
+    },
+    {
+      "prompt": "I saw a ",
+      "category": "article",
+      "avg_good_prob": 1.760653085511876e-05,
+      "avg_bad_prob": 2.0702485016954597e-05,
+      "ratio": 0.8504508418006597,
+      "correct": false,
+      "best_good": 2.2029644242138602e-05,
+      "best_bad": 3.325040597701445e-05
+    },
+    {
+      "prompt": "I saw an ",
+      "category": "article",
+      "avg_good_prob": 2.9599847948702518e-05,
+      "avg_bad_prob": 1.864154364739079e-05,
+      "ratio": 1.5878346624679478,
+      "correct": true,
+      "best_good": 4.399742465466261e-05,
+      "best_bad": 2.5954852389986627e-05
+    },
+    {
+      "prompt": "She is a ",
+      "category": "article",
+      "avg_good_prob": 3.2445477017972735e-05,
+      "avg_bad_prob": 2.5912960154528264e-05,
+      "ratio": 1.2520897502838135,
+      "correct": true,
+      "best_good": 5.9983482060488313e-05,
+      "best_bad": 4.467612234293483e-05
+    },
+    {
+      "prompt": "He is an ",
+      "category": "article",
+      "avg_good_prob": 2.5063683551707072e-05,
+      "avg_bad_prob": 1.2693492863036226e-05,
+      "ratio": 1.9745145304520189,
+      "correct": true,
+      "best_good": 3.274135815445334e-05,
+      "best_bad": 1.5361645637312904e-05
+    },
+    {
+      "prompt": "black and ",
+      "category": "collocation",
+      "avg_good_prob": 1.3257014870760031e-05,
+      "avg_bad_prob": 1.8496089827143198e-05,
+      "ratio": 0.7167430154347428,
+      "correct": false,
+      "best_good": 1.3257014870760031e-05,
+      "best_bad": 3.923901022062637e-05
+    },
+    {
+      "prompt": "up and ",
+      "category": "collocation",
+      "avg_good_prob": 1.4477303011517506e-05,
+      "avg_bad_prob": 2.1248962790802278e-05,
+      "ratio": 0.6813148962872871,
+      "correct": false,
+      "best_good": 1.4477303011517506e-05,
+      "best_bad": 4.3096366425743327e-05
+    },
+    {
+      "prompt": "day and ",
+      "category": "collocation",
+      "avg_good_prob": 4.933141099172644e-06,
+      "avg_bad_prob": 1.2608691577042919e-05,
+      "ratio": 0.3912461451226233,
+      "correct": false,
+      "best_good": 4.933141099172644e-06,
+      "best_bad": 2.4034196030697785e-05
+    },
+    {
+      "prompt": "hot and ",
+      "category": "collocation",
+      "avg_good_prob": 2.4152990590664558e-05,
+      "avg_bad_prob": 2.5633258701418526e-05,
+      "ratio": 0.9422483753300716,
+      "correct": false,
+      "best_good": 2.4152990590664558e-05,
+      "best_bad": 4.445812737685628e-05
+    },
+    {
+      "prompt": "The sun rises in the ",
+      "category": "completion",
+      "avg_good_prob": 1.957119366124971e-05,
+      "avg_bad_prob": 1.393930203145525e-05,
+      "ratio": 1.404019599770917,
+      "correct": true,
+      "best_good": 2.4949589715106413e-05,
+      "best_bad": 1.8637587345438078e-05
+    },
+    {
+      "prompt": "Water is ",
+      "category": "completion",
+      "avg_good_prob": 1.2161413906142116e-05,
+      "avg_bad_prob": 1.6400559161411365e-05,
+      "ratio": 0.7415198246882877,
+      "correct": false,
+      "best_good": 1.9752284060814418e-05,
+      "best_bad": 2.3531751139671542e-05
+    }
+  ]
+}

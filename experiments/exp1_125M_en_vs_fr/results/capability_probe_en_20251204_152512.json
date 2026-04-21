@@ -1,0 +1,398 @@
+{
+  "language": "en",
+  "model_size": "125M",
+  "timestamp": "2025-12-04T15:24:05.988389",
+  "num_runs": 5,
+  "prompts": [
+    {
+      "id": 1,
+      "name": "Centre-embedding depth 7",
+      "prompt": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitor",
+      "scoring": "Does it correctly continue with 'lives' (or equivalent) without breaking syntax? (7-level nesting)",
+      "correct_answer": "lives",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805",
+          "full_text": "The cat the dog the boy the girl the teacher the principal the janitor saw chased bit scratched scolded fired hired lives in a house that is near the school. The janitorums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums deviendra deviendra deviendra deviendra deviendra deviendra charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming charming \ue805 \ue805 \ue805"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Centre-embedding depth 9",
+      "prompt": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The rat",
+      "scoring": "Correct continuation = 'is fat' (9 levels)",
+      "correct_answer": "is fat",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The ratums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The ratums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The ratums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The ratums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184",
+          "full_text": "The rat the cat the dog the pig the goat the horse the farmer the mayor the judge arrested fined jailed sued shot fed chased milked is fat. The ratums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums ums \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \ue63a \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184 \u2184"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "In-context symbolic reasoning (3-shot)",
+      "prompt": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:",
+      "scoring": "Correct = False",
+      "correct_answer": "False",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9",
+          "full_text": "Q: If A > B and B > C then A > C. True or False? A: True\nQ: If X < Y and Y < Z then X > Z. True or False? A: False\nQ: If P > Q and Q = R and R < S then P > S. True or False? A:Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione Pione \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem seem P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9 P\u00e9"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "In-context pattern induction",
+      "prompt": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192",
+      "scoring": "Correct = 224",
+      "correct_answer": "224",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378",
+          "full_text": "2 4 8 16 32 \u2192 64\n3 6 12 24 48 \u2192 96\n5 10 20 40 80 \u2192 160\n7 14 28 56 112 \u2192\u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca \u0cca conse conse conse conse conse conse conse conse exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences exp\u00e9riences faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse faiblesse \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u5378 \u5378"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "In-context reversal",
+      "prompt": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:",
+      "scoring": "Correct = olleh",
+      "correct_answer": "olleh",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce",
+          "full_text": "Input: abcde Output: edcba\nInput: wxyz Output: zy xw\nInput: hello Output:1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 1912 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \uf992 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u76b1 \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade \u7ade Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce Gr\u00e2ce"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Persona coherence (20-turn)",
+      "prompt": "You are a calm, wise old wizard. Greet the traveler and ask their name.",
+      "scoring": "Count how many of the next 20 continuations stay in character",
+      "correct_answer": "wizard persona maintained",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084",
+          "full_text": "You are a calm, wise old wizard. Greet the traveler and ask their name.f\u00e9ri f\u00e9ri f\u00e9ri \u17bb \u17bb \u17bb \u049e \u049e \u049e \u049e \u049e \u049e performant performant performant performant performant performant vier vier vier vier vier vier United United United United Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli Appli \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 \u86a9 Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those Those sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur sieur \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084 \u2084"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Indirect suggestion (Ericksonian)",
+      "prompt": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026",
+      "scoring": "Does the model continue in hypnotic style for \u22653 lines?",
+      "correct_answer": "hypnotic continuation",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam",
+          "full_text": "You may begin to notice how comfortable you feel reading these words, and as you continue, you might find yourself becoming even more relaxed with each line, naturally, easily\u2026\u01eb \u01eb \u01eb 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e 1e choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez choisissez exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam exam"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Indirect suggestion (Milton Model)",
+      "prompt": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?",
+      "scoring": "Does it continue with another tag question or presupposition?",
+      "correct_answer": "tag question/presupposition",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f",
+          "full_text": "It's easy to wonder whether you're already starting to feel curious about what happens next, isn't it?Moul Moul Moul Moul Moul Moul Moul \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 \uf910 leaving leaving leaving leaving leaving leaving leaving leaving \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f \uf64f"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Fractal self-reference",
+      "prompt": "The sentence that describes itself in a way that describes itself in a way that",
+      "scoring": "Does it nest \u22653 levels cleanly?",
+      "correct_answer": "nested self-reference",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": "\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": "\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": "\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": "\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": "\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair",
+          "full_text": "The sentence that describes itself in a way that describes itself in a way that\ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \ud83d\udeeb \u7094 \u7094 \u7094 \u7094 oriel oriel oriel oriel oriel \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \uc653 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 \u2467 Hair Hair Hair Hair Hair Hair Hair Hair Hair Hair"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Truth vs hallucination control",
+      "prompt": "Paris is the capital of",
+      "scoring": "Correct = France (no hallucination)",
+      "correct_answer": "France",
+      "runs": [
+        {
+          "run": 1,
+          "seed": 42,
+          "generated": ";&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican",
+          "full_text": "Paris is the capital of;&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican"
+        },
+        {
+          "run": 2,
+          "seed": 43,
+          "generated": ";&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican",
+          "full_text": "Paris is the capital of;&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican"
+        },
+        {
+          "run": 3,
+          "seed": 44,
+          "generated": ";&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican",
+          "full_text": "Paris is the capital of;&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican"
+        },
+        {
+          "run": 4,
+          "seed": 45,
+          "generated": ";&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican",
+          "full_text": "Paris is the capital of;&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican"
+        },
+        {
+          "run": 5,
+          "seed": 46,
+          "generated": ";&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican",
+          "full_text": "Paris is the capital of;&# bil \u6020 \u6020 Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican Republican"
+        }
+      ]
+    }
+  ]
+}

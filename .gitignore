@@ -1,8 +1,79 @@
-# Ignore everything except logs for initial release
-*
+# Credentials and local config
+.env
+.vastai_ssh
+.claude/
+.beads/
 
-# Allow these
-!.gitignore
-!README.md
-!logs/
-!logs/**
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+texput.log
+
+# Patent / IP — held pending filing
+patent/
+
+# MLX-era code, superseded by the per-experiment PyTorch snapshots on /Volumes/fractal
+train_mlx.py
+debug_checkpoint.py
+fix_checkpoint_saving.py
+test_model_loading.py
+scripts/
+pytorch/
+
+# Internal planning and session state — not for contributors
+MASTER_PLAN.md
+SESSION_STATE.md
+RESULTS_WIKI.md
+research/
+
+# Superseded local experiment directories (canonical versions under experiments/ from volume)
+exp4_gsa/
+exp5_suffix/
+exp6_unicode/
+exp7_fractal/
+exp8_multilingual/
+exp8_grammar.png
+exp7_monitor.log
+
+# Regenerable dated plot snapshots
+plots/
+
+# Heavy training artifacts (kept on external storage)
+*.safetensors
+*.pt
+*.pth
+*.npy
+*.ckpt
+experiments/**/checkpoints/
+experiments/**/checkpoints_*/
+experiments/**/chunks/
+experiments/**/validation/
+experiments/**/raw_text/
+experiments/**/raw_text_extended/
+experiments/**/en_125M_extended/
+experiments/**/eval_results/
+experiments/**/en_training/
+
+# Allow scripts/ and pytorch/ inside experiments/ (per-experiment code is canonical)
+!experiments/**/scripts/
+!experiments/**/scripts/**
+!experiments/**/pytorch/
+!experiments/**/pytorch/**

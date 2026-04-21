@@ -1,0 +1,119 @@
+{
+  "emergence_threshold": 0.6,
+  "languages": {
+    "en": {
+      "step_to_60": 11000,
+      "tokens_to_60": 22.5,
+      "H_at_emergence": 0.7095,
+      "H_top_k_at_emergence": 0.7109,
+      "final_grammar": 0.8667,
+      "final_H": 0.6306,
+      "H_early": 0.539
+    },
+    "fr": {
+      "step_to_60": 3000,
+      "tokens_to_60": 6.1,
+      "H_at_emergence": 0.7319,
+      "H_top_k_at_emergence": 0.7384,
+      "final_grammar": 0.8667,
+      "final_H": 0.7115,
+      "H_early": 0.6872
+    },
+    "es": {
+      "step_to_60": 8000,
+      "tokens_to_60": 16.4,
+      "H_at_emergence": 0.5578,
+      "H_top_k_at_emergence": 0.5528,
+      "final_grammar": 0.7833,
+      "final_H": 0.6445,
+      "H_early": 0.5869
+    },
+    "fi": {
+      "step_to_60": 11000,
+      "tokens_to_60": 22.5,
+      "H_at_emergence": 0.5532,
+      "H_top_k_at_emergence": 0.5458,
+      "final_grammar": 0.72,
+      "final_H": 0.7866,
+      "H_early": 0.6227
+    },
+    "ru": {
+      "step_to_60": 10000,
+      "tokens_to_60": 20.5,
+      "H_at_emergence": 0.6073,
+      "H_top_k_at_emergence": 0.5947,
+      "final_grammar": 0.8,
+      "final_H": 0.7351,
+      "H_early": 0.5781
+    },
+    "vi": {
+      "step_to_60": 13000,
+      "tokens_to_60": 26.6,
+      "H_at_emergence": 0.8996,
+      "H_top_k_at_emergence": 0.8271,
+      "final_grammar": 0.55,
+      "final_H": 0.7291,
+      "H_early": 0.6165
+    },
+    "zh": {
+      "step_to_60": 37000,
+      "tokens_to_60": 75.8,
+      "H_at_emergence": 0.8857,
+      "H_top_k_at_emergence": 0.7793,
+      "final_grammar": 0.55,
+      "final_H": 0.7358,
+      "H_early": 0.8764
+    },
+    "synth_a": {
+      "step_to_60": 16000,
+      "tokens_to_60": 32.8,
+      "H_at_emergence": 0.6914,
+      "H_top_k_at_emergence": 0.6726,
+      "final_grammar": 0.8333,
+      "final_H": 0.7623,
+      "H_early": 0.6816
+    },
+    "synth_b": {
+      "step_to_60": 16000,
+      "tokens_to_60": 32.8,
+      "H_at_emergence": 0.5341,
+      "H_top_k_at_emergence": 0.5345,
+      "final_grammar": 0.7667,
+      "final_H": 0.6895,
+      "H_early": 0.5481
+    },
+    "synth_c": {
+      "step_to_60": 20000,
+      "tokens_to_60": 41.0,
+      "H_at_emergence": 0.5895,
+      "H_top_k_at_emergence": 0.5832,
+      "final_grammar": 0.7333,
+      "final_H": 0.597,
+      "H_early": 0.6932
+    },
+    "synth_d": {
+      "step_to_60": 22000,
+      "tokens_to_60": 45.1,
+      "H_at_emergence": 0.7714,
+      "H_top_k_at_emergence": 0.741,
+      "final_grammar": 0.6667,
+      "final_H": 0.6153,
+      "H_early": 0.5945
+    }
+  },
+  "correlations": {
+    "H_early_vs_tokens": {
+      "r": 0.3470355813826896,
+      "p": 0.2957349819541916
+    },
+    "H_emergence_vs_tokens": {
+      "r": 0.25571042838724495,
+      "p": 0.4478935284528045
+    },
+    "WALS_vs_tokens": {
+      "r": -0.7824212079009135,
+      "p": 0.004421946811704758
+    },
+    "n_emerged": 11
+  }
+}

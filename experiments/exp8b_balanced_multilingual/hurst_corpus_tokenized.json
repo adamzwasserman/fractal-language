@@ -1,0 +1,126 @@
+{
+  "corpus": {
+    "en": {
+      "H_word_freq": 0.6861042533888467,
+      "n_words": 500000,
+      "vocab_size": 64846
+    },
+    "fr": {
+      "H_word_freq": 0.7315696499160501,
+      "n_words": 500000,
+      "vocab_size": 88032
+    },
+    "es": {
+      "H_word_freq": 0.7814071152506543,
+      "n_words": 500000,
+      "vocab_size": 88994
+    },
+    "fi": {
+      "H_word_freq": 0.7610660115374189,
+      "n_words": 500000,
+      "vocab_size": 162166
+    },
+    "ru": {
+      "H_word_freq": 0.6492497555776499,
+      "n_words": 500000,
+      "vocab_size": 136938
+    },
+    "id": {
+      "H_word_freq": 0.738735261945841,
+      "n_words": 500000,
+      "vocab_size": 74647
+    },
+    "vi": {
+      "H_word_freq": 0.782310465175741,
+      "n_words": 500000,
+      "vocab_size": 45775
+    },
+    "zh": {
+      "H_word_freq": 0.7921521394585161,
+      "n_words": 281480,
+      "vocab_size": 134674
+    },
+    "synth_a": {
+      "H_word_freq": 0.6596324460364569,
+      "n_words": 500000,
+      "vocab_size": 37259
+    },
+    "synth_b": {
+      "H_word_freq": 0.6566243779313065,
+      "n_words": 500000,
+      "vocab_size": 36638
+    },
+    "synth_c": {
+      "H_word_freq": 0.6589096999589628,
+      "n_words": 500000,
+      "vocab_size": 31482
+    },
+    "synth_d": {
+      "H_word_freq": 0.6556666682769942,
+      "n_words": 500000,
+      "vocab_size": 30858
+    }
+  },
+  "tokenized": {
+    "en": {
+      "H_token_freq": 0.6526556902470514,
+      "n_tokens": 1000000,
+      "vocab_used": 15168
+    },
+    "fr": {
+      "H_token_freq": 0.7369759907748372,
+      "n_tokens": 1000000,
+      "vocab_used": 13526
+    },
+    "es": {
+      "H_token_freq": 0.7924228173513409,
+      "n_tokens": 1000000,
+      "vocab_used": 12840
+    },
+    "fi": {
+      "H_token_freq": 0.7660718495664229,
+      "n_tokens": 1000000,
+      "vocab_used": 14530
+    },
+    "ru": {
+      "H_token_freq": 0.7399194778624151,
+      "n_tokens": 1000000,
+      "vocab_used": 10514
+    },
+    "id": {
+      "H_token_freq": 0.6877882148571726,
+      "n_tokens": 1000000,
+      "vocab_used": 10899
+    },
+    "vi": {
+      "H_token_freq": 0.7416589048949475,
+      "n_tokens": 1000000,
+      "vocab_used": 12970
+    },
+    "zh": {
+      "H_token_freq": 0.8711176929607296,
+      "n_tokens": 1000000,
+      "vocab_used": 16979
+    },
+    "synth_a": {
+      "H_token_freq": 0.656876052499275,
+      "n_tokens": 1000000,
+      "vocab_used": 15067
+    },
+    "synth_b": {
+      "H_token_freq": 0.6584327783168261,
+      "n_tokens": 1000000,
+      "vocab_used": 14944
+    },
+    "synth_c": {
+      "H_token_freq": 0.6563780330057453,
+      "n_tokens": 1000000,
+      "vocab_used": 13887
+    },
+    "synth_d": {
+      "H_token_freq": 0.660384131894203,
+      "n_tokens": 1000000,
+      "vocab_used": 13720
+    }
+  }
+}

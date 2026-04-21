@@ -1,0 +1,10 @@
+{
+  "en_file": "/Volumes/Misc Backup/fractal/en_texts.txt",
+  "fr_file": "/Volumes/Misc Backup/fractal/fr_texts.txt",
+  "total_en_docs": 23119273,
+  "total_fr_docs": 32988281,
+  "total_docs": 56107554,
+  "tokenizer_file": "/Volumes/Misc Backup/fractal/joint_tokenizer.json",
+  "tokenizer_vocab_size": 50000,
+  "tokenizer_sample_size": 1000000
+}

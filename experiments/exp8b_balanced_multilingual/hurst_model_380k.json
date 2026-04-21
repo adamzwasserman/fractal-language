@@ -1,0 +1,99 @@
+{
+  "model_h_380k": {
+    "en": {
+      "H_loss": 0.585,
+      "H_entropy": 0.636,
+      "H_top_k": 0.622,
+      "grammar": 85,
+      "step": 386000
+    },
+    "fr": {
+      "H_loss": 0.697,
+      "H_entropy": 0.711,
+      "H_top_k": 0.71,
+      "grammar": 87,
+      "step": 381000
+    },
+    "es": {
+      "H_loss": 0.614,
+      "H_entropy": 0.647,
+      "H_top_k": 0.631,
+      "grammar": 78,
+      "step": 379000
+    },
+    "fi": {
+      "H_loss": 0.691,
+      "H_entropy": 0.767,
+      "H_top_k": 0.757,
+      "grammar": 74,
+      "step": 383000
+    },
+    "ru": {
+      "H_loss": 0.62,
+      "H_entropy": 0.734,
+      "H_top_k": 0.735,
+      "grammar": 81,
+      "step": 378000
+    },
+    "vi": {
+      "H_loss": 0.698,
+      "H_entropy": 0.728,
+      "H_top_k": 0.713,
+      "grammar": 57,
+      "step": 387000
+    },
+    "zh": {
+      "H_loss": 0.66,
+      "H_entropy": 0.734,
+      "H_top_k": 0.708,
+      "grammar": 58,
+      "step": 381000
+    },
+    "synth_a": {
+      "H_loss": 0.609,
+      "H_entropy": 0.753,
+      "H_top_k": 0.746,
+      "grammar": 83,
+      "step": 380000
+    },
+    "synth_b": {
+      "H_loss": 0.67,
+      "H_entropy": 0.675,
+      "H_top_k": 0.673,
+      "grammar": 78,
+      "step": 384000
+    },
+    "synth_c": {
+      "H_loss": 0.61,
+      "H_entropy": 0.599,
+      "H_top_k": 0.592,
+      "grammar": 73,
+      "step": 381000
+    },
+    "synth_d": {
+      "H_loss": 0.762,
+      "H_entropy": 0.688,
+      "H_top_k": 0.685,
+      "grammar": 66,
+      "step": 381000
+    }
+  },
+  "correlations": {
+    "H_loss_vs_emergence": {
+      "r": 0.06392760709681124,
+      "p": 0.8518706025636504
+    },
+    "H_loss_vs_grammar": {
+      "r": -0.4601378680539873,
+      "p": 0.15441839412466296
+    },
+    "WALS_vs_emergence": {
+      "r": -0.7219526274834625,
+      "p": 0.01211950222330293
+    },
+    "WALS_vs_H_loss": {
+      "r": 0.22295172290671966,
+      "p": 0.5099216957772046
+    }
+  }
+}

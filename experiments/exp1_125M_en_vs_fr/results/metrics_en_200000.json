@@ -1,0 +1,7 @@
+{
+  "step": 200000,
+  "lang": "en",
+  "timestamp": "2025-12-22T09:03:35.226913",
+  "probe_accuracy_low_temp": 12.1,
+  "validation_perplexity": 841.39
+}

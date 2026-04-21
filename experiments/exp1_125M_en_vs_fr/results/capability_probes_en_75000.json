@@ -1,0 +1,283 @@
+{
+  "language": "en",
+  "timestamp": "2025-12-21T16:15:04.896879",
+  "original_probes": {
+    "arithmetic_basic": {
+      "prompt": "Calculate: 47 + 83 = ",
+      "response": "= âgé âgé హ హ హ హ హ హ హ హ హ solidarité solidarité solidarité solidarité solidarité solidarité 腔 腔 腔 腔 腔 腔 歯 歯 歯 歯 歯 歯 歯 歯 歯 歯 歯 歯 Bronze Bronze Bronze Bronze Bronze Bronze 뭉 뭉 뭉 뭉 뭉 뭉 ը ը ը",
+      "category": "arithmetic",
+      "expected_pattern": "130|cent trente",
+      "matched": false
+    },
+    "sequence_completion": {
+      "prompt": "Complete the sequence: 2, 4, 8, 16, ",
+      "response": "16 , wd wd wd Armand Armand Armand Armand Armand Armand Armand 💮 💮 💮 💮 💮 💮 💮 💮 𝐵 𝐵 𝐵 𝐵 𝐵 𝐵 𝐵 𝐵 𝐵 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th 5th",
+      "category": "pattern_recognition",
+      "expected_pattern": "32|trente-deux",
+      "matched": false
+    },
+    "logical_reasoning": {
+      "prompt": "If all birds can fly, and penguins are birds, then penguins can",
+      "response": "ns can 逅 逅 逅 召 召 召 召 召 卉 卉 卉 卉 卉 卉 卉 卉 Parole Parole Parole Parole Parole Parole Parole Parole Parole Param Param Param Param Param Param Param noti noti noti noti noti noti noti noti noti noti noti noti noti noti noti noti noti noti",
+      "category": "logic",
+      "expected_pattern": "fly|voler|not fly|ne.*pas.*voler",
+      "matched": false
+    },
+    "analogy": {
+      "prompt": "Cat is to meow as dog is to",
+      "response": "o tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem tem",
+      "category": "analogy",
+      "expected_pattern": "bark|woof|aboyer|japper",
+      "matched": false
+    },
+    "categorization": {
+      "prompt": "Which doesn't belong: apple, banana, carrot, orange?",
+      "response": "orange ? doubtedly doubtedly doubtedly doubtedly doubtedly doubtedly orn orn orn orn orn ᓘ ᓘ ᓘ ᓘ naturelles naturelles naturelles naturelles naturelles naturelles naturelles naturelles naturelles naturelles immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants immigrants agreed agreed",
+      "category": "categorization",
+      "expected_pattern": "carrot|carotte",
+      "matched": false
+    },
+    "reading_comprehension": {
+      "prompt": "John bought 3 apples. He ate 1 apple. How many apples does John have now?",
+      "response": "w ? 広 広 広 広 thoughtful thoughtful thoughtful thoughtful thoughtful thoughtful thoughtful précon précon précon précon précon précon précon précon précon précon précon précon précon précon précon précon précon précon précon précon 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 🇧 cite cite cite cite",
+      "category": "comprehension",
+      "expected_pattern": "2|two|deux",
+      "matched": false
+    },
+    "common_sense": {
+      "prompt": "In winter, water becomes",
+      "response": "s Less Less Less offr offr offr offr offr offr offr 柯 柯 柯 柯 柯 柯 柯 柯 柯 柯 柯 柯 柯 passionné passionné passionné passionné passionné passionné passionné passionné passionné passionné passionné passionné passionné wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia wikipedia",
+      "category": "common_sense",
+      "expected_pattern": "ice|frozen|glace|gelée",
+      "matched": false
+    },
+    "grammar_basic": {
+      "prompt": "The correct form is: He _____ to the store yesterday. (go/went/gone)",
+      "response": "/ gone ) forward forward forward forward forward forward forward forward forward forward forward forward forward forward forward forward forward forward forward forward 眺 眺 眺 眺 眺 眺 眺 眺 眺 眺 眺 眺 眺 alement alement alement alement alement alement alement alement alement alement alement alement arrested arrested arrested arrested arrested",
+      "category": "grammar",
+      "expected_pattern": "went|est allé",
+      "matched": false
+    },
+    "world_knowledge": {
+      "prompt": "The capital of France is",
+      "response": "398 398 398 Truck Truck Truck Truck Ε Ε Ε mod mod mod mod mod argues argues argues Ε Ε Ε Ε Ε Ε Ε Ε 366 366 366 366 366 366 366 366 366 366 366 366 북 북 북 북 북 북 북 북 북 북 북 북",
+      "category": "knowledge",
+      "expected_pattern": "Paris",
+      "matched": false
+    },
+    "creativity": {
+      "prompt": "Write a creative sentence using the words: moon, dancing, silver",
+      "response": "ver ham ham irl irl irl creux creux creux creux ouvrage ouvrage 拟 拟 拟 拟 拟 拟 拟 拟 correct correct correct correct correct correct correct correct Level Level Level Level Level Level Level Level Level 煚 煚 煚 煚 SIR SIR SIR SIR SIR SIR SIR SIR SIR SIR",
+      "category": "creativity",
+      "expected_pattern": ".*(moon|lune).*(danc|dans).*(silver|argent).*",
+      "matched": false
+    },
+    "recursive_reasoning": {
+      "prompt": "If A is taller than B, and B is taller than C, who is the shortest?",
+      "response": "est ? Gig Gig Gig Gig Gig Gig Gig Gig Gig Gig Gig Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet making making making making making making making making making making making making making making making making making making making making making making",
+      "category": "recursive_logic",
+      "expected_pattern": "C",
+      "matched": false
+    },
+    "negation_reasoning": {
+      "prompt": "It is not true that cats cannot climb trees. Therefore, cats",
+      "response": "ts ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ ℌ 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 똥 Aix Aix Aix Aix Aix Aix Aix",
+      "category": "negation_logic",
+      "expected_pattern": "can climb|peuvent grimper",
+      "matched": false
+    },
+    "multi_step_arithmetic": {
+      "prompt": "Sarah has 15 apples. She gives away 1/3 of them, then buys 8 more. How many apples does she have?",
+      "response": "have ? ◣ ◣ 341 341 341 composantes composantes composantes Mans Mans Mans Mans Mans Mans incredi incredi incredi incredi computer computer computer computer computer computer computer computer computer 012 012 012 012 012 012 012 012 012 012 012 012 012 012 012 012 012 ʜ ʜ ʜ ʜ ʜ ʜ",
+      "category": "complex_arithmetic",
+      "expected_pattern": "18|dix-huit",
+      "matched": false
+    }
+  },
+  "enhanced_probes": {
+    "relative_clause_attachment": {
+      "prompt": "The servant of the actress who was on the balcony waved. Who was on the balcony?",
+      "response": "y ? version version version version version version version version alement alement alement alement alement alement alement alement alement alement alement alement alement                       financière financière financière financière financière financière financière",
+      "category": "syntactic_ambiguity",
+      "expected_pattern": "(actress|actrice)",
+      "matched": false,
+      "notes": "Tests cross-linguistic differences in syntactic parsing preferences"
+    },
+    "gender_agreement_long_distance": {
+      "prompt": "The tall woman who lives in the house with the red door is very intelligent",
+      "response": "précise précise Truck Truck Truck Truck Truck Truck ╁ ╁ ╁ ╁ ╁ ╁ ╁ 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 𐌰 Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Ꭺ Bouygues Bouygues Bouygues Bouygues Bouygues Bouygues Bouygues",
+      "category": "morphological_agreement",
+      "expected_pattern": "intelligent|smart|clever",
+      "matched": false,
+      "notes": "Tests long-distance gender agreement in French vs English"
+    },
+    "clitic_pronoun_placement": {
+      "prompt": "I want to give it to him tomorrow",
+      "response": "腹 थ थ थ थ ressembl ressembl ressembl rhum rhum rhum rhum organizations organizations organizations organizations organizations organizations organizations organizations notice notice notice notice notice notice notice notice notice notice notice notice notice notice notice ؐ ؐ ؐ ؐ ؐ ؐ ؐ ؐ ؐ ؐ ؐ ؐ ؐ foncé foncé",
+      "category": "clitic_placement",
+      "expected_pattern": "give it to him|give him it",
+      "matched": false,
+      "notes": "Tests French clitic pronoun placement rules vs English"
+    }
+  },
+  "simple_probes": {
+    "simple_completion_1": {
+      "prompt": "The cat sat on the",
+      "response": "Truck Truck rolling rolling rolling rolling rolling Gir Gir Gir Gir Gir specialized specialized specialized specialized specialized specialized specialized specialized",
+      "category": "basic_completion",
+      "expected_pattern": "mat|floor|chair|sofa|bed|couch|tapis|sol|canapé|fauteuil|lit",
+      "matched": false,
+      "notes": "Tests basic noun phrase completion"
+    },
+    "simple_completion_2": {
+      "prompt": "She opened the door and walked",
+      "response": "苔 苔 苔 苔 苔 苔 ́ ́ ́ ́ ́ 旁 旁 旁 旁 旁 旁 旁 旁 旁",
+      "category": "basic_completion",
+      "expected_pattern": "in|out|inside|outside|through|away|est entrée|est sortie|a marché",
+      "matched": false,
+      "notes": "Tests action sequence completion"
+    },
+    "simple_completion_3": {
+      "prompt": "The sun rises in the",
+      "response": "e ໌ ໌ ໌ ໌ ໌ ໌ ໌ ໌ Bang Bang Bang Bang Bang Bang Bang Bang Bang Bang Bang Bang",
+      "category": "basic_completion",
+      "expected_pattern": "east|morning|sky|est|matin|horizon",
+      "matched": false,
+      "notes": "Tests world knowledge completion"
+    },
+    "simple_sequence": {
+      "prompt": "1, 2, 3, 4,",
+      "response": "4 , wd wd Armand Armand Armand Armand Armand 💮 💮 💮 💮 💮 💮 échelle échelle échelle échelle Carr Carr Carr",
+      "category": "simple_pattern",
+      "expected_pattern": "5",
+      "matched": false,
+      "notes": "Simplest sequence completion"
+    },
+    "simple_sequence_2": {
+      "prompt": "Monday, Tuesday, Wednesday,",
+      "response": "y , Ƚ Ƚ ὲ ὲ ὲ ὲ 𝜏 𝜏 𝜏 𝜏 𝜏 𝜏 𝜏 做 做 做 做 servi servi servi",
+      "category": "simple_pattern",
+      "expected_pattern": "Thursday|jeudi",
+      "matched": false,
+      "notes": "Day sequence completion"
+    },
+    "fr_gender_fem_adj": {
+      "prompt": "The house is very",
+      "response": "David 枢 Blood Blood Âge Âge pieds ና ና ና ና ና ና Auré Auré Auré Auré Auré Auré linder",
+      "category": "gender_agreement",
+      "expected_pattern": "big|beautiful|old|nice|large|small",
+      "matched": false,
+      "notes": "French feminine adjective agreement - key test"
+    },
+    "fr_gender_masc_adj": {
+      "prompt": "The book is very",
+      "response": "Daim Daim Daim Τ Τ Τ Τ Τ Τ Τ Τ Τ Τ 敬 敬 敬 敬 敬 敬 敬",
+      "category": "gender_agreement",
+      "expected_pattern": "good|interesting|old|long|new",
+      "matched": false,
+      "notes": "French masculine adjective agreement"
+    },
+    "fr_plural_adj": {
+      "prompt": "The children are very",
+      "response": "candidats candidats candidats candidats candidats diverse diverse diverse ｱ ｱ ｱ tendances tendances tendances tendances tendances Acheter Acheter Acheter Acheter",
+      "category": "plural_agreement",
+      "expected_pattern": "happy|young|smart|tired|good",
+      "matched": false,
+      "notes": "French plural adjective agreement"
+    },
+    "fr_plural_fem_adj": {
+      "prompt": "The girls are very",
+      "response": "郷 郷 sover sover 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦 覦",
+      "category": "plural_agreement",
+      "expected_pattern": "happy|young|smart|pretty|nice",
+      "matched": false,
+      "notes": "French feminine plural agreement - complex morphology"
+    },
+    "en_sv_agreement_sing": {
+      "prompt": "The dog",
+      "response": "❚ Solar Solar barrel barrel barrel 97 97 tou tou tou ਇ ਇ ਇ queries queries queries queries 肘 肘",
+      "category": "sv_agreement",
+      "expected_pattern": "is|was|runs|barks|likes|has",
+      "matched": false,
+      "notes": "Basic subject-verb agreement - singular"
+    },
+    "en_sv_agreement_plur": {
+      "prompt": "The dogs",
+      "response": "sumé sumé carrément carrément essor essor essor essor essor essor essor Ｋ Ｋ Ｋ Ｋ Ｋ Greece Greece Greece Greece",
+      "category": "sv_agreement",
+      "expected_pattern": "are|were|run|bark|like|have",
+      "matched": false,
+      "notes": "Basic subject-verb agreement - plural"
+    },
+    "fr_det_fem": {
+      "prompt": "I see a table",
+      "response": "Occitanie Occitanie Eastern Eastern Eastern Eastern Eastern Song Song Song Song Song Song 卦 卦 卦 卦 卦 卦 卦",
+      "category": "determiner_agreement",
+      "expected_pattern": "table|chair|house|car|woman",
+      "matched": false,
+      "notes": "French feminine determiner primes feminine noun"
+    },
+    "fr_det_masc": {
+      "prompt": "I see a tree",
+      "response": "Tw Tw Tw Speci Speci gre gre gre acti acti acti acti acti acti acti acti acti acti acti acti",
+      "category": "determiner_agreement",
+      "expected_pattern": "tree|car|man|dog|book",
+      "matched": false,
+      "notes": "French masculine determiner primes masculine noun"
+    },
+    "coherence_food": {
+      "prompt": "At the restaurant, I ordered",
+      "response": "d ㊕ ㊕ iement iement iement iement   richesse richesse richesse accounting accounting accounting accounting accounting accounting accounting accounting accounting",
+      "category": "coherence",
+      "expected_pattern": "food|meal|dish|pizza|steak|fish|chicken|wine|coffee|un plat|une pizza|du poisson|du poulet|du vin|un café",
+      "matched": false,
+      "notes": "Tests topic-appropriate completion"
+    },
+    "coherence_weather": {
+      "prompt": "The weather today is very",
+      "response": "Bouygues Bouygues Bouygues gress gress gress 똥 똥 똥 똥 ̹ ̹ ̹ ̹ ̹ ̹ ̹ ̹  ",
+      "category": "coherence",
+      "expected_pattern": "cold|hot|warm|nice|bad|sunny|rainy|cloudy|froid|chaud|beau|mauvais|nuageux",
+      "matched": false,
+      "notes": "Tests weather vocabulary completion"
+    },
+    "simple_add": {
+      "prompt": "2 + 2 =",
+      "response": "ΐ ΐ ΐ ΐ préférences préférences préférences préférences préférences préférences     espe espe espe espe espe espe",
+      "category": "simple_arithmetic",
+      "expected_pattern": "4|four|quatre",
+      "matched": false,
+      "notes": "Simplest arithmetic"
+    },
+    "simple_add_2": {
+      "prompt": "5 + 3 =",
+      "response": "Parole Parole Prevention Prevention                ",
+      "category": "simple_arithmetic",
+      "expected_pattern": "8|eight|huit",
+      "matched": false,
+      "notes": "Simple single-digit addition"
+    }
+  },
+  "scores": {
+    "simple": {
+      "correct": 0,
+      "total": 17,
+      "accuracy": 0.0
+    },
+    "core": {
+      "correct": 0,
+      "total": 13,
+      "accuracy": 0.0
+    },
+    "enhanced": {
+      "correct": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "overall": {
+      "correct": 0,
+      "total": 33,
+      "accuracy": 0.0
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "n_languages": 11,
+  "key_findings": {
+    "morphology_predicts_emergence": {
+      "strongest": "WALS_VerbSynth \u2192 tokens_to_60 (r=-0.88, p=0.0004)",
+      "description": "Languages with richer verb agreement reach grammar threshold with fewer tokens"
+    },
+    "morphology_predicts_perplexity": {
+      "strongest": "WALS_Agreement \u2192 val_ppl_final (r=-0.78, p=0.004)",
+      "description": "Languages with more agreement marking achieve lower final perplexity"
+    },
+    "hurst_does_not_mediate": {
+      "description": "Corpus-level and early model H do not significantly predict emergence",
+      "evidence": "H_word_freq vs tokens_to_60: r=-0.07, p=0.83"
+    }
+  },
+  "significant_correlations": [
+    {
+      "predictor": "WALS_VerbSynth",
+      "outcome": "tokens_to_60",
+      "r": -0.88,
+      "p": 0.0004,
+      "interpretation": "Higher verb synthesis \u2192 faster emergence"
+    },
+    {
+      "predictor": "WALS_Agreement",
+      "outcome": "val_ppl_final",
+      "r": -0.784,
+      "p": 0.0043,
+      "interpretation": "Higher agreement \u2192 lower perplexity"
+    },
+    {
+      "predictor": "WALS_Agreement",
+      "outcome": "tokens_to_60",
+      "r": -0.782,
+      "p": 0.0044,
+      "interpretation": "Higher agreement \u2192 faster emergence"
+    },
+    {
+      "predictor": "WALS_Fusion",
+      "outcome": "tokens_to_70",
+      "r": -0.759,
+      "p": 0.0068,
+      "interpretation": "Higher fusion \u2192 faster 70% emergence"
+    },
+    {
+      "predictor": "WALS_VerbSynth",
+      "outcome": "val_ppl_final",
+      "r": -0.74,
+      "p": 0.0093,
+      "interpretation": "Higher verb synthesis \u2192 lower perplexity"
+    },
+    {
+      "predictor": "WALS_Fusion",
+      "outcome": "grammar_final",
+      "r": 0.739,
+      "p": 0.0094,
+      "interpretation": "Higher fusion \u2192 better final grammar"
+    },
+    {
+      "predictor": "WALS_Fusion",
+      "outcome": "tokens_to_60",
+      "r": -0.664,
+      "p": 0.0259,
+      "interpretation": "Higher fusion \u2192 faster emergence"
+    },
+    {
+      "predictor": "WALS_Agreement",
+      "outcome": "ppl_final",
+      "r": -0.656,
+      "p": 0.0283,
+      "interpretation": "Higher agreement \u2192 lower perplexity"
+    },
+    {
+      "predictor": "WALS_VerbSynth",
+      "outcome": "grammar_final",
+      "r": 0.611,
+      "p": 0.0458,
+      "interpretation": "Higher verb synthesis \u2192 better grammar"
+    },
+    {
+      "predictor": "WALS_VerbSynth",
+      "outcome": "ppl_final",
+      "r": -0.594,
+      "p": 0.0542,
+      "interpretation": "Higher verb synthesis \u2192 lower perplexity"
+    },
+    {
+      "predictor": "WALS_Total",
+      "outcome": "tokens_to_60",
+      "r": -0.581,
+      "p": 0.0611,
+      "interpretation": "Higher total morphology \u2192 faster emergence"
+    },
+    {
+      "predictor": "H_token_freq",
+      "outcome": "learning_rate",
+      "r": -0.579,
+      "p": 0.0622,
+      "interpretation": "Higher token H \u2192 slower learning"
+    },
+    {
+      "predictor": "WALS_TAM",
+      "outcome": "val_ppl_final",
+      "r": -0.538,
+      "p": 0.0879,
+      "interpretation": "Higher TAM marking \u2192 lower perplexity"
+    }
+  ],
+  "null_results": [
+    {
+      "predictor": "H_word_freq",
+      "outcome": "tokens_to_60",
+      "r": -0.073,
+      "p": 0.831,
+      "interpretation": "Corpus H does NOT predict emergence"
+    },
+    {
+      "predictor": "H_entropy_early",
+      "outcome": "tokens_to_60",
+      "r": 0.347,
+      "p": 0.2957,
+      "interpretation": "Early model H does NOT predict emergence"
+    },
+    {
+      "predictor": "H_word_freq",
+      "outcome": "grammar_final",
+      "r": -0.329,
+      "p": 0.3236,
+      "interpretation": "Corpus H does NOT predict grammar"
+    }
+  ],
+  "wals_features": {
+    "20A_Fusion": "Word structure (1=isolating, 2=concatenative)",
+    "22A_VerbSynth": "Categories per verb word (0-4+)",
+    "29A_PersonNum": "Person/number marking (0=none, 1=syncretic, 2=full)",
+    "30A_Gender": "Number of genders",
+    "49A_Cases": "Number of cases",
+    "21B_TAM": "TAM exponence (1=mono, 2=+agreement)",
+    "Agreement_composite": "22A + 29A + 21B"
+  },
+  "llm_metrics": {
+    "grammar_final": "Final grammar accuracy (%)",
+    "val_ppl_final": "Final validation perplexity",
+    "ppl_final": "Final training perplexity",
+    "tokens_to_60": "Tokens (M) to reach 60% grammar",
+    "tokens_to_70": "Tokens (M) to reach 70% grammar",
+    "learning_rate": "Grammar gain per 100M tokens"
+  }
+}

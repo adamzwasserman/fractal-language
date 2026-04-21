@@ -1,0 +1,6 @@
+torch
+safetensors
+tokenizers
+numpy
+tqdm
+psutil
