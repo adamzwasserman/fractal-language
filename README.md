@@ -10,6 +10,8 @@ All capabilities currently described as "emergent" in LLMs are predictable stati
 
 See [`HYPOTHESIS.md`](HYPOTHESIS.md) for the full statement and [`BLI_SCALING_FALSIFICATION.md`](BLI_SCALING_FALSIFICATION.md) for the embedding-geometry follow-up program.
 
+**About.** The Language-Only Hypothesis is a pre-registered scientific hypothesis (OSF [SJ48B](https://osf.io/sj48b)) that the emergent capabilities of large language models are properties of natural-language structure rather than of neural-network architecture, parameter count, or training compute. It is distinct from linguistic-determinism or "language of thought" claims about human cognition; this is a claim about LLMs and language structure. By **Adam Zachary Wasserman** ([ORCID](https://orcid.org/0009-0002-8865-6583), [OSF](https://osf.io/user/8t64r)), part of the research program of the [Open Honest Foundation](https://openhonest.org); see also [The Linguistic Telescope](https://linguistictelescope.org).
+
 ## Method
 
 Train identical transformer architectures on different natural languages (and on controlled variants) with all other variables held constant — model size, hyperparameters, tokenizer, seed, data volume. Measure whether emergence thresholds vary by language. If they do, scale cannot be the primary driver of emergence.
