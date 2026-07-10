@@ -77,3 +77,10 @@ experiments/**/en_training/
 !experiments/**/scripts/**
 !experiments/**/pytorch/
 !experiments/**/pytorch/**
+
+# Local AI context
+.agents.md
+
+# macOS AppleDouble + local write-test artifacts
+._*
+.write_test_*
