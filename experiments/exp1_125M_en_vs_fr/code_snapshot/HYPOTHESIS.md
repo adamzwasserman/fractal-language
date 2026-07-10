@@ -85,7 +85,7 @@ Are there capabilities where English's analytic structure is advantageous? Where
 
 The `/Users/adam/dev/axioms/` project tests the same "instrumentation" thesis from a different angle: if transformers are instruments that resolve structure, then providing explicit formal axioms should dramatically improve performance in bounded expert domains.
 
-Results from that project show axiomatic prompting achieving 100% accuracy where few-shot prompting scores 0% on EU VAT and GDPR classification tasks - strong evidence that explicit structure in the *prompt* (not just training data) enables the instrument to function correctly.
+Results from that project show that explicit axiomatic structure in the prompt measurably changes classification accuracy: where zero-shot accuracy is below 70%, axioms raised it by 15-24% (GoEmotions +14.7%, LEDGAR +24.0%, CADEC +15.3%), while above 70% they degraded it, and the 70% threshold predicted the direction of the effect on all six tasks tested (Wasserman 2026, *The 70% Rule*) - evidence that explicit structure in the *prompt*, not just the training data, affects whether the instrument functions correctly.
 
 ## Capability Probes
 
