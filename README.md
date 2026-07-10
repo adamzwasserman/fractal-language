@@ -2,25 +2,42 @@
 
 Experimental codebase, training logs, and paper sources for a research program testing whether the capabilities of large language models are properties of **natural language structure** rather than of neural networks, parameter count, or training compute.
 
-> "The transformer isn't generating structure — it's resolving structure that's already there. Like a microscope doesn't create cells."
+> The transformer resolves structure that is already in the language, the way a microscope resolves cells it did not create.
+
+## The result, in one paragraph
+
+Train two transformers that are identical in every way (same architecture, same compute, same hyperparameters, same tokenizer, same seed) and change only the training language. A 125M model trained on French reaches grammatical competence, 100% on agreement probes, at about 197 million tokens. The identical model trained on English is still at chance past three billion tokens. Same instrument, same scale, wildly different outcome, which locates the capability in the structure of the language rather than in the network or the compute. The effect holds across two different architecture families (GPT-2 style and LLaMA style), so it is a property of the language, not of one instrument. The central experiment was pre-registered on OSF before any data was collected.
+
+## Go deeper
+
+- **Pre-registration (OSF):** [10.17605/OSF.IO/SJ48B](https://osf.io/sj48b), filed before data collection.
+- **Lead paper (Zenodo):** *The Scaling Hypothesis Is Language-Contingent* — [10.5281/zenodo.19423151](https://doi.org/10.5281/zenodo.19423151).
+- **Companion deposits:** *English Considered Harmful* ([10.5281/zenodo.19443357](https://doi.org/10.5281/zenodo.19443357)) and *The 70% Rule* ([10.5281/zenodo.19423101](https://doi.org/10.5281/zenodo.19423101)).
+- **Child-scale replication (in peer review):** *Right Tool, Right Job* (Wasserman & Beauchemin, BabyLM 2026 / EMNLP).
+- **The wider program:** [The Linguistic Telescope](https://linguistictelescope.org).
+- **Plain-language explainer:** forthcoming on [Essential Musings](https://emusings.substack.com).
+
+## Follow the work
+
+New results, papers, and essays go out first here:
+
+- X: [@adamzwasserman](https://x.com/adamzwasserman)
+- Substack: [Essential Musings](https://emusings.substack.com)
+- Site: [adamzacharywasserman.com](https://adamzacharywasserman.com)
+- Foundation: [Open Honest Foundation](https://openhonest.org)
+- Watch or star this repo to be notified when new experiments land.
 
 ## Core claim
 
-All capabilities currently described as "emergent" in LLMs are predictable statistical consequences of deep, multi-scale regularities intrinsic to natural language corpora. The neural network functions as *instrumentation* — a replaceable measuring device — not as the source of the capability.
+All capabilities currently described as "emergent" in LLMs are predictable statistical consequences of deep, multi-scale regularities intrinsic to natural language corpora. The neural network functions as *instrumentation*, a replaceable measuring device, not as the source of the capability. This is a claim about LLMs and language structure; it is distinct from linguistic-determinism or "language of thought" claims about human cognition.
 
 See [`HYPOTHESIS.md`](HYPOTHESIS.md) for the full statement and [`BLI_SCALING_FALSIFICATION.md`](BLI_SCALING_FALSIFICATION.md) for the embedding-geometry follow-up program.
 
-**About.** The Language-Only Hypothesis is a pre-registered scientific hypothesis (OSF [SJ48B](https://osf.io/sj48b)) that the emergent capabilities of large language models are properties of natural-language structure rather than of neural-network architecture, parameter count, or training compute. It is distinct from linguistic-determinism or "language of thought" claims about human cognition; this is a claim about LLMs and language structure. By **Adam Zachary Wasserman** ([ORCID](https://orcid.org/0009-0002-8865-6583), [OSF](https://osf.io/user/8t64r)), part of the research program of the [Open Honest Foundation](https://openhonest.org); see also [The Linguistic Telescope](https://linguistictelescope.org).
-
 ## Method
 
-Train identical transformer architectures on different natural languages (and on controlled variants) with all other variables held constant — model size, hyperparameters, tokenizer, seed, data volume. Measure whether emergence thresholds vary by language. If they do, scale cannot be the primary driver of emergence.
+Train identical transformer architectures on different natural languages (and on controlled variants) with all other variables held constant: model size, hyperparameters, tokenizer, seed, data volume. Measure whether emergence thresholds vary by language. If they do, scale cannot be the primary driver of emergence.
 
 Two architecture families are used (GPT-2 style with LayerNorm/GELU/learned positions, and LLaMA style with RMSNorm/SwiGLU/RoPE) to demonstrate that the effect is a property of the language, not of the instrument.
-
-## Pre-registration
-
-The central experiment was pre-registered on OSF prior to data collection: [10.17605/OSF.IO/SJ48B](https://osf.io/sj48b).
 
 ## Repository layout
 
@@ -55,9 +72,8 @@ Training code is PyTorch and expects CUDA (originally run on 4090s via vast.ai).
 
 ## Citation
 
-Wasserman, A.Z. (2026). *The Scaling Hypothesis Is Language-Contingent: Evidence from Cross-Linguistic Training Dynamics*. OSF pre-registration: 10.17605/OSF.IO/SJ48B. Paper forthcoming — see [`paper/`](paper/).
+Wasserman, A.Z. (2026). *The Scaling Hypothesis Is Language-Contingent: Evidence from Cross-Linguistic Training Dynamics.* OSF pre-registration 10.17605/OSF.IO/SJ48B; Zenodo [10.5281/zenodo.19423151](https://doi.org/10.5281/zenodo.19423151). Paper in `paper/`.
 
-## Contact
+## Author
 
-Adam Zachary Wasserman — Independent Researcher.
-Collaboration inquiries welcome via GitHub issues.
+Adam Zachary Wasserman ([ORCID](https://orcid.org/0009-0002-8865-6583), [OSF](https://osf.io/user/8t64r)), Founder and Senior Fellow, [Open Honest Foundation](https://openhonest.org). Collaboration inquiries welcome via GitHub issues.
