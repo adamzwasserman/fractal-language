@@ -31,7 +31,7 @@ New results, papers, and essays go out first here:
 
 All capabilities currently described as "emergent" in LLMs are predictable statistical consequences of deep, multi-scale regularities intrinsic to natural language corpora. The neural network functions as *instrumentation*, a replaceable measuring device, not as the source of the capability. This is a claim about LLMs and language structure; it is distinct from linguistic-determinism or "language of thought" claims about human cognition.
 
-See [`HYPOTHESIS.md`](HYPOTHESIS.md) for a summary (the full, canonical statement is the OSF pre-registration linked above) and [`BLI_SCALING_FALSIFICATION.md`](BLI_SCALING_FALSIFICATION.md) for the embedding-geometry follow-up program.
+See [`HYPOTHESIS.md`](HYPOTHESIS.md) for a summary; the full, canonical statement is the OSF pre-registration linked above.
 
 ## Method
 
@@ -46,9 +46,6 @@ paper/           Paper drafts (EN/FR), compiled PDFs, figures, references
 experiments/     Per-experiment code, reports, pre-registrations, and result artifacts
 logs/            Training metrics and probe results from the 125M EN vs FR central experiment
 HYPOTHESIS.md    Summary of the Language-Only Hypothesis (full statement on OSF)
-BLI_SCALING_FALSIFICATION.md     Embedding-geometry follow-up program
-REASON_TESTS_ARE_NOT_REASON_TESTS.md    Methodological note on "reasoning" benchmarks
-LOTTERY_FRACTAL_INSTRUMENT_SYNTHESIS.md Synthesis across lottery-ticket, fractal, and instrumentation framings
 CLAUDE.md        Orientation for AI-assisted contributors
 ```
 
